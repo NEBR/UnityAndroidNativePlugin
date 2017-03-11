@@ -18,4 +18,19 @@ public class Demo : MonoBehaviour {
     {
         AndroidNativePlugin.OpenCamera();
     }
+
+    public void OnClick_FlashlightOn()
+    {
+        AndroidNativePlugin.FlashlightOn();
+    }
+
+    public void OnClick_FlashlightOff()
+    {
+        AndroidNativePlugin.FlashlightOff();
+    }
+
+    public void OnClick_Flashlight()
+    {
+        AndroidNativePlugin.Flashlight();
+    }
 }
