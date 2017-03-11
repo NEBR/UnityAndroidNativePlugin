@@ -8,4 +8,14 @@ public class Demo : MonoBehaviour {
 	{
 		AndroidNativePlugin.OpenSettings();
 	}
+
+    public void OnClick_OpenGallery()
+    {
+        AndroidNativePlugin.OpenGallery();
+    }
+
+    public void OnClick_OpenCamera()
+    {
+        AndroidNativePlugin.OpenCamera();
+    }
 }
