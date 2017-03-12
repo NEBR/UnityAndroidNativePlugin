@@ -55,39 +55,6 @@ public class AndroidNativePlugin {
         }
     }
 
-    public static void FlashlightOn()
-    {
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            using (var javaUnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
-            {
-                using (var currentActivity = javaUnityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
-                {
-                    using (var callSettingsPanelPlugin = new AndroidJavaObject("com.Nebr.AndroidNativePlugin.AndroidNativePlugin", currentActivity))
-                    {
-                        callSettingsPanelPlugin.Call("FlashlightOn");
-                    }
-                }
-            }
-        }
-    }
-
-    public static void FlashlightOff()
-    {
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            using (var javaUnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
-            {
-                using (var currentActivity = javaUnityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
-                {
-                    using (var callSettingsPanelPlugin = new AndroidJavaObject("com.Nebr.AndroidNativePlugin.AndroidNativePlugin", currentActivity))
-                    {
-                        callSettingsPanelPlugin.Call("FlashlightOff");
-                    }
-                }
-            }
-        }
-    }
 
     public static void Flashlight()
     {
@@ -100,6 +67,40 @@ public class AndroidNativePlugin {
                     using (var callSettingsPanelPlugin = new AndroidJavaObject("com.Nebr.AndroidNativePlugin.AndroidNativePlugin", currentActivity))
                     {
                         callSettingsPanelPlugin.Call("Flashlight");
+                    }
+                }
+            }
+        }
+    }
+
+    public static void Vibrate()
+    {
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            using (var javaUnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+            {
+                using (var currentActivity = javaUnityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
+                {
+                    using (var callSettingsPanelPlugin = new AndroidJavaObject("com.Nebr.AndroidNativePlugin.AndroidNativePlugin", currentActivity))
+                    {
+                        callSettingsPanelPlugin.Call("Vibrate");
+                    }
+                }
+            }
+        }
+    }
+
+    public static void Vibrate2()
+    {
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            using (var javaUnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+            {
+                using (var currentActivity = javaUnityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
+                {
+                    using (var callSettingsPanelPlugin = new AndroidJavaObject("com.Nebr.AndroidNativePlugin.AndroidNativePlugin", currentActivity))
+                    {
+                        callSettingsPanelPlugin.Call("Vibrate2");
                     }
                 }
             }
