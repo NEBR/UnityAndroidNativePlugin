@@ -22,7 +22,7 @@
 		"instant_bonus_magnet": false, 
 		"instant_bonus_fast_spawn": true, 
 		"instant_bonus_coins":false,
-		"level_up":false, 
+		"level_up":true, 
 
 		"ab_test_new_users": 100
 	},
