@@ -4,13 +4,12 @@
 		"interstitials_upgrade": true,
 
 		"banner_enabled": true,
-		"enableBanner":true,
 
 		"interstitials_frequency": 300,
 		"interstitials_first_time_delay": 120,
 		"interstitials_first_level_up": 3,
 
-		"bonus_frequency_pinata_first": 210,
+		"bonus_frequency_pinata_first": 180,
 		"bonus_frequency_pinata_second": 240,
 		"bonus_frequency_pinata_third": 300,
 
@@ -22,9 +21,9 @@
 		"instant_bonus_magnet": false, 
 		"instant_bonus_fast_spawn": true, 
 		"instant_bonus_coins":false,
-		"level_up":true, 
+		"level_up":false, 
 
-		"ab_test_new_users": 100
+		"ab_test_new_users": 40
 	},
 
 	"ABTests": [
