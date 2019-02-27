@@ -4,7 +4,6 @@
 		"interstitials_upgrade": true,
 
 		"banner_enabled": true,
-		"enableBanner":true,
 
 		"interstitials_frequency": 300,
 		"interstitials_first_time_delay": 120,
@@ -24,7 +23,7 @@
 		"instant_bonus_coins":false,
 		"level_up":false, 
 
-		"ab_test_new_users": 100
+		"ab_test_new_users": 40
 	},
 
 	"ABTests": [
