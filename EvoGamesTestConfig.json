@@ -10,7 +10,7 @@
 		"interstitials_first_time_delay": 120,
 		"interstitials_first_level_up": 3,
 
-		"bonus_frequency_pinata_first": 180,
+		"bonus_frequency_pinata_first": 220,
 		"bonus_frequency_pinata_second": 240,
 		"bonus_frequency_pinata_third": 300,
 
@@ -22,9 +22,9 @@
 		"instant_bonus_magnet": false, 
 		"instant_bonus_fast_spawn": true, 
 		"instant_bonus_coins":false,
-		"level_up":false, 
+		"level_up":true, 
 
-		"ab_test_new_users": 40
+		"ab_test_new_users": 100
 	},
 
 	"ABTests": [
@@ -33,42 +33,16 @@
 			"id": "A",
 			"CohortWeight": 25,
 			"values": {
-				"banner_enabled": false,
-				"instant_bonus_fast_spawn": true
+				"banner_enabled": false
+				 
 			}
 		},
 
 		{
 			"id": "B",
-			"CohortWeight": 25,
+			"CohortWeight": 75,
 			"values": {
-				"level_up": true,
-				"banner_enabled":false,
-				"instant_bonus_fast_spawn": true
-			}
-		},
-
-
-		{
-			"id": "C",
-			"CohortWeight": 25,
-			"values": {
-				"instant_bonus_coins": true,
-				"instant_bonus_magnet":true,
-				"instant_bonus_fast_spawn":true,
-				"banner_enabled":false
-			}
-		},
-
-		{
-			"id": "D",
-			"CohortWeight": 25,
-			"values": {
-				"instant_bonus_coins": true,
-				"instant_bonus_magnet":true,
-				"instant_bonus_fast_spawn":true,
-				"level_up":true,
-				"banner_enabled":false
+				"banner_enabled": false
 			}
 		}
 
