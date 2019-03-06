@@ -3,7 +3,7 @@
 		"interstitials_level_up": true,
 		"interstitials_upgrade": true,
 
-		"banner_enabled": false,
+		"banner_enabled": true,
 		"enableBanner":true,
 
 		"interstitials_frequency": 300,
@@ -22,7 +22,7 @@
 		"instant_bonus_magnet": false, 
 		"instant_bonus_fast_spawn": true, 
 		"instant_bonus_coins":false,
-		"level_up":false, 
+		"level_up":true, 
 		"not_enough_money_upgrade_for_rv":true,
 		"not_enough_money_upgrade_for_rv_frequency":60,
 		"x2_boost_length":240, 
@@ -30,7 +30,7 @@
  		"weapon_box_tickets_cost": 2,
  		"magnet_tickets_cost": 1,
  		"faster_weapon_drop_tickets_cost": 1,
-        "pinata_more_visible_rv_button":true,
+                "pinata_more_visible_rv_button":true,
 		"extend_bonus_for_rv":true,
 		"extend_bonus_frequency":60,
 		"extend_bonus_seconds_left_to_display_offer":30,
