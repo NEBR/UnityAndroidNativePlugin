@@ -4,27 +4,39 @@
 		"interstitials_upgrade": true,
 
 		"banner_enabled": true,
-		"enableBanner":true,
+		"enableBanner": true,
 
 		"interstitials_frequency": 300,
 		"interstitials_first_time_delay": 120,
 		"interstitials_first_level_up": 3,
 
-		"bonus_frequency_pinata_first": 220,
+		"bonus_frequency_pinata_first": 180,
 		"bonus_frequency_pinata_second": 240,
 		"bonus_frequency_pinata_third": 300,
 
-		"weapons_delivery_weapons_count" : 18,
+		"weapons_delivery_weapons_count": 18,
 
-		"BoosterBoxTimeMin":60, 
-		"BoosterBoxTimeMax":90, 
+		"BoosterBoxTimeMin": 60,
+		"BoosterBoxTimeMax": 90,
 
-		"instant_bonus_magnet": false, 
-		"instant_bonus_fast_spawn": true, 
-		"instant_bonus_coins":false,
-		"level_up":true, 
+		"instant_bonus_magnet": false,
+		"instant_bonus_fast_spawn": true,
+		"instant_bonus_coins": false,
+		"level_up": true,
 
-		"ab_test_new_users": 100
+		"not_enough_money_upgrade_for_rv":true,
+		"not_enough_money_upgrade_for_rv_frequency":60,
+		"x2_boost_length":240,
+		"fast_forward_tickets_cost": 5,
+		"weapon_box_tickets_cost": 2,
+		"magnet_tickets_cost": 1,
+		"faster_weapon_drop_tickets_cost": 1,
+		"pinata_more_visible_rv_button":true,
+		"extend_bonus_for_rv":true,
+		"extend_bonus_frequency":60,
+		"extend_bonus_seconds_left_to_display_offer":30,
+
+		"ab_test_new_users": 1
 	},
 
 	"ABTests": [
@@ -33,15 +45,42 @@
 			"id": "A",
 			"CohortWeight": 25,
 			"values": {
-				"banner_enabled": false
-				 
+				"banner_enabled": true,
+				"instant_bonus_fast_spawn": true
 			}
 		},
 
 		{
 			"id": "B",
-			"CohortWeight": 75,
+			"CohortWeight": 25,
 			"values": {
+				"banner_enabled": true,
+				"interstitials_frequency": 150,
+				"instant_bonus_fast_spawn": true
+			}
+		},
+
+
+		{
+			"id": "C",
+			"CohortWeight": 25,
+			"values": {
+				"weapons_delivery_weapons_count": 12,
+				"instant_bonus_fast_spawn": true,
+				"banner_enabled": true
+			}
+		},
+
+		{
+			"id": "D",
+			"CohortWeight": 25,
+			"values": {
+				"instant_bonus_coins": true,
+				"instant_bonus_magnet": true,
+				"instant_bonus_fast_spawn": true,
+				"level_up": true,
+				"BoosterBoxTimeMin": 40,
+				"BoosterBoxTimeMax": 60,
 				"banner_enabled": true
 			}
 		}
