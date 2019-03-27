@@ -26,7 +26,7 @@
 
 		"not_enough_money_upgrade_for_rv":true,
 		"not_enough_money_upgrade_for_rv_frequency":60,
-		"x2_boost_length":240,
+		"x2_boost_length":10,
 		"fast_forward_tickets_cost": 5,
 		"weapon_box_tickets_cost": 2,
 		"magnet_tickets_cost": 1,
