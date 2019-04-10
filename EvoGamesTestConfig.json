@@ -16,8 +16,8 @@
 
 		"weapons_delivery_weapons_count" : 18,
 
-		"BoosterBoxTimeMin":20, 
-		"BoosterBoxTimeMax":40, 
+		"BoosterBoxTimeMin":45, 
+		"BoosterBoxTimeMax":60, 
 
 		"instant_bonus_magnet": false, 
 		"instant_bonus_fast_spawn": false, 
@@ -42,7 +42,7 @@
 		"boogiebomb_duration":15,                // effect duration in seconds
 		
 		"weapons_delivery_first_spawn_time":30,  // spawn first weapons box in X seconds after game started
-		"weapons_delivery_frequency":60,         // spawn weapons box each X seconds
+		"weapons_delivery_frequency":30,         // spawn weapons box each X seconds
 		
     	        "super_upgrade_frequency":2,             // offer video each X upgrades
     	        "super_upgrade_chance":50,               // chance to show video button instead of normal upgrade
