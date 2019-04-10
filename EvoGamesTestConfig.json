@@ -16,8 +16,8 @@
 
 		"weapons_delivery_weapons_count" : 18,
 
-		"BoosterBoxTimeMin":60, 
-		"BoosterBoxTimeMax":90, 
+		"BoosterBoxTimeMin":20, 
+		"BoosterBoxTimeMax":40, 
 
 		"instant_bonus_magnet": false, 
 		"instant_bonus_fast_spawn": false, 
