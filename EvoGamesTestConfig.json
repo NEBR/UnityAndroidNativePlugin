@@ -36,6 +36,7 @@
 		"extend_bonus_frequency": 60,
 		"extend_bonus_seconds_left_to_display_offer": 30,
 		
+		"instant_bonus_boogiebomb":true,         // enable or disable boogie bomb bonus
 		"boogiebomb_multiplyspeed_factor":2,     // how fast will be game after video watching
 		"boogiebomb_multiplyprofit_factor":2,    // profit multiplayer
 		"boogiebomb_duration":15,                // effect duration in seconds
