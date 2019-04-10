@@ -23,6 +23,29 @@
 		"instant_bonus_fast_spawn": true, 
 		"instant_bonus_coins":false,
 		"level_up":true, 
+		
+		"not_enough_money_upgrade_for_rv": false,
+		"not_enough_money_upgrade_for_rv_frequency": 60,
+		"x2_boost_length": 10,
+		"fast_forward_tickets_cost": 5,
+		"weapon_box_tickets_cost": 2,
+		"magnet_tickets_cost": 1,
+		"faster_weapon_drop_tickets_cost": 1,
+		"pinata_more_visible_rv_button": true,
+		"extend_bonus_for_rv": false,
+		"extend_bonus_frequency": 60,
+		"extend_bonus_seconds_left_to_display_offer": 30,
+		
+		"boogiebomb_multiplyspeed_factor":2,     // how fast will be game after video watching
+		"boogiebomb_multiplyprofit_factor":2,    // profit multiplayer
+		"boogiebomb_duration":15,                // effect duration in seconds
+		
+		"weapons_delivery_first_spawn_time":30,  // spawn first weapons box in X seconds after game started
+		"weapons_delivery_frequency":60,         // spawn weapons box each X seconds
+		
+    	        "super_upgrade_frequency":2,             // offer video each X upgrades
+    	        "super_upgrade_chance":50,               // chance to show video button instead of normal upgrade
+    	        "super_upgrade_power":10,                // count of upgrades user get after video watching
 
 		"ab_test_new_users": 100
 	},
