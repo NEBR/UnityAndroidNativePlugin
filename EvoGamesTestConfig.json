@@ -50,7 +50,6 @@
 		
 		"golden_weapons_box":true,               // enable or disable golden weapons box bonus
 		"golden_weapons_box_frequency":3, 	 // how often normal weapons box will be replaced with golden box
-		"golden_weapons_box_higher_level":3,     // how many levels will be added to spawned weapons
 
 		"ab_test_new_users": 100
 	},
