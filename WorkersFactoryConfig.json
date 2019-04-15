@@ -6,6 +6,7 @@
 		"interstitials_frequency": 180,             // how often show interstitials
 		"interstitials_first_time_delay": 120,      // time since game load to first interstitial
 		"interstitials_first_level_up": 3,          // user should reach at least 3th level to see interstitial
+		"choose_item_panel_PRO_enabled":true,
 		
 		"ab_test_new_users": 100
 	},
