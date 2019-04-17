@@ -8,7 +8,7 @@
 		"interstitials_first_level_up": 3,          // user should reach at least 3th level to see interstitial
 		"choose_item_panel_PRO_enabled":false,
 		
-		"ab_test_new_users": 100
+		"ab_test_new_users": 1
 	},
 
 	"ABTests": [
