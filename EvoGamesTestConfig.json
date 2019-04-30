@@ -70,7 +70,7 @@
 		},
 
 		{
-			"id": "A",
+			"id": "B",
 			"CohortWeight": 50,
 			"values": {
 				"simple_version_enabled":true
