@@ -54,7 +54,7 @@
 		"golden_weapons_box_higher_level":40,    // how many levels will be added to spawned weapons
 		
 		"simple_version_enabled":false,            // enable or disable feature
-		"round_boosters_frequency":75,            // frequency to display round booster
+		"round_boosters_frequency":30,            // frequency to display round booster
 		
 		"ab_test_new_users": 100
 	},
