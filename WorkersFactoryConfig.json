@@ -16,7 +16,7 @@
 
 		{
 			"id": "A",
-			"CohortWeight": 25,
+			"CohortWeight": 50,
 			"values": {
 				"intDifficultyToLevelUpPlayer":1.5
 			}
@@ -24,7 +24,7 @@
 
 		{
 			"id": "B",
-			"CohortWeight": 25,
+			"CohortWeight": 50,
 			"values": {
 				 "intDifficultyToLevelUpPlayer":2
 			}
