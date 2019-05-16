@@ -9,14 +9,14 @@
 		"choose_item_panel_PRO_enabled":false,
 		"intDifficultyToLevelUpPlayer":1,
 		
-		"ab_test_new_users": 1
+		"ab_test_new_users": 50
 	},
 
 	"ABTests": [
 
 		{
 			"id": "A",
-			"CohortWeight": 50,
+			"CohortWeight": 25,
 			"values": {
 				"intDifficultyToLevelUpPlayer":1.5
 			}
@@ -24,7 +24,7 @@
 
 		{
 			"id": "B",
-			"CohortWeight": 50,
+			"CohortWeight": 25,
 			"values": {
 				"levels_experience_factor":2
 			}
