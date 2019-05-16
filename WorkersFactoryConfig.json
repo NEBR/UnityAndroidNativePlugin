@@ -18,7 +18,7 @@
 			"id": "A",
 			"CohortWeight": 50,
 			"values": {
-				"levels_experience_factor":1.8,
+				"levels_experience_factor":3.6,
 			}
 		},
 
