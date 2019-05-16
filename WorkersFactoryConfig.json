@@ -7,7 +7,7 @@
 		"interstitials_first_time_delay": 180,      // time since game load to first interstitial
 		"interstitials_first_level_up": 3,          // user should reach at least 3th level to see interstitial
 		"choose_item_panel_PRO_enabled":false,
-		"levels_experience_factor":1.8,
+		"intDifficultyToLevelUpPlayer":1,
 		
 		"ab_test_new_users": 1
 	},
@@ -18,7 +18,7 @@
 			"id": "A",
 			"CohortWeight": 50,
 			"values": {
-				"levels_experience_factor":3.6,
+				"intDifficultyToLevelUpPlayer":1.5,
 			}
 		},
 
@@ -26,7 +26,7 @@
 			"id": "B",
 			"CohortWeight": 50,
 			"values": {
-				"levels_experience_factor":3.6,
+				"levels_experience_factor":2,
 			}
 		}
 	]
