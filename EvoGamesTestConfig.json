@@ -19,12 +19,12 @@
 		"BoosterBoxTimeMin":60, 
 		"BoosterBoxTimeMax":90, 
 
-		"instant_bonus_magnet": false, 
+		"instant_bonus_magnet": true, 
 		"instant_bonus_fast_spawn": true, 
-		"instant_bonus_coins":false,
+		"instant_bonus_coins":true,
 		"level_up":true, 
 		
-		"not_enough_money_upgrade_for_rv":false,
+		"not_enough_money_upgrade_for_rv":true,
 		"not_enough_money_upgrade_for_rv_frequency":60,
 		"x2_boost_length":10, 
 		"fast_forward_tickets_cost": 5,
@@ -49,11 +49,11 @@
     	        "super_upgrade_chance":0,                // chance to show video button instead of normal upgrade
     	        "super_upgrade_power":10,                // count of upgrades user get after video watching
 		
-		"golden_weapons_box":false,              // enable or disable golden weapons box bonus
+		"golden_weapons_box":true,               // enable or disable golden weapons box bonus
 		"golden_weapons_box_frequency":3, 	 // how often normal weapons box will be replaced with golden box
 		"golden_weapons_box_higher_level":40,    // how many levels will be added to spawned weapons
 		
-		"simple_version_enabled":false,            // enable or disable feature
+		"simple_version_enabled":false,           // enable or disable feature
 		"round_boosters_frequency":40,            // frequency to display round booster
 		
 		"ab_test_new_users": 100
