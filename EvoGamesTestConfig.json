@@ -31,7 +31,7 @@
  		"weapon_box_tickets_cost": 2,
  		"magnet_tickets_cost": 1,
  		"faster_weapon_drop_tickets_cost": 1,
-        "pinata_more_visible_rv_button":true,
+                "pinata_more_visible_rv_button":true,
 		"extend_bonus_for_rv":false,            
 		"extend_bonus_frequency":60,
 		"extend_bonus_seconds_left_to_display_offer":30,
