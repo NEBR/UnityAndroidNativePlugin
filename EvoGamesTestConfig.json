@@ -3,7 +3,7 @@
 		"interstitials_level_up": true,
 		"interstitials_upgrade": true,
 
-		"banner_enabled": false,
+		"banner_enabled": true,
 		"enableBanner":true,
 
 		"interstitials_frequency": 300,
