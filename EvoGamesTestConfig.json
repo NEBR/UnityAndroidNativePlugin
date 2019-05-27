@@ -40,6 +40,7 @@
 		
 		"boogiebomb_multiplyspeed_factor":2,     // how fast will be game after video watching
 		"boogiebomb_multiplyprofit_factor":2,    // profit multiplayer
+		"boogiebomb_frequency":45,               // boogie bomb drop frequency
 		"boogiebomb_duration":15,                // effect duration in seconds
 		
 		"weapons_delivery_first_spawn_time":30,  // spawn first weapons box in X seconds after game started
