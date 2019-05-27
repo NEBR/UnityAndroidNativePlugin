@@ -16,8 +16,8 @@
 
 		"weapons_delivery_weapons_count" : 18,
 
-		"BoosterBoxTimeMin":70, 
-		"BoosterBoxTimeMax":100, 
+		"BoosterBoxTimeMin":60, 
+		"BoosterBoxTimeMax":90, 
 
 		"instant_bonus_magnet": true, 
 		"instant_bonus_fast_spawn": true, 
@@ -40,7 +40,7 @@
 		
 		"boogiebomb_multiplyspeed_factor":2,     // how fast will be game after video watching
 		"boogiebomb_multiplyprofit_factor":2,    // profit multiplayer
-		"boogiebomb_frequency":45,               // boogie bomb drop frequency
+		"boogiebomb_frequency":70,               // boogie bomb drop frequency
 		"boogiebomb_duration":15,                // effect duration in seconds
 		
 		"weapons_delivery_first_spawn_time":30,  // spawn first weapons box in X seconds after game started
@@ -55,7 +55,7 @@
 		"golden_weapons_box_higher_level":40,    // how many levels will be added to spawned weapons
 		
 		"simple_version_enabled":false,           // enable or disable feature
-		"round_boosters_frequency":40,            // frequency to display round booster
+		"round_boosters_frequency":45,            // frequency to display round booster
 		
 		"ab_test_new_users": 100
 	},
