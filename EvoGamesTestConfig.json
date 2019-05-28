@@ -58,6 +58,10 @@
 		"round_boosters_frequency":45,            // frequency to display round booster
 		"round_booster_duration":45,              // how long booster activated
 		
+		"speed_round_booster_enable":true,       
+		"coins_round_booster_enable":true,
+		"magnet_round_booster_enable":true,
+		
 		"ab_test_new_users": 100
 	},
 	
