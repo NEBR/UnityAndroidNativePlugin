@@ -56,7 +56,7 @@
 		
 		"simple_version_enabled":false,           // enable or disable feature
 		"round_boosters_frequency":45,            // frequency to display round booster
-		"round_booster_duration":45               // how long booster activated
+		"round_booster_duration":45,              // how long booster activated
 		
 		"ab_test_new_users": 100
 	},
