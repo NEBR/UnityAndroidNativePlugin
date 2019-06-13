@@ -49,7 +49,7 @@
     	"super_upgrade_chance":0,               // chance to show video button instead of normal upgrade
     	"super_upgrade_power":10,                // count of upgrades user get after video watching
 		
-		"golden_weapons_box":false,               // enable or disable golden weapons box bonus
+		"golden_weapons_box":true,               // enable or disable golden weapons box bonus
 		"golden_weapons_box_frequency":3, 		 // how often normal weapons box will be replaced with golden box
 		"golden_weapons_box_higher_level":40,     // how many levels will be added to spawned weapons
 		
