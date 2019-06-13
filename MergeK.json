@@ -3,7 +3,7 @@
 		"interstitials_level_up": true,
 		"interstitials_upgrade": true,
 
-		"banner_enabled": false,
+		"banner_enabled": true,
 		"enableBanner":true,
 
 		"interstitials_frequency": 300,
@@ -19,9 +19,9 @@
 		"BoosterBoxTimeMin":60, 
 		"BoosterBoxTimeMax":90, 
 
-		"instant_bonus_magnet": false, 
+		"instant_bonus_magnet": true, 
 		"instant_bonus_fast_spawn": true, 
-		"instant_bonus_coins":false,
+		"instant_bonus_coins":true,
 		"level_up":true, 
 		
 		"not_enough_money_upgrade_for_rv":false,
@@ -31,12 +31,12 @@
  		"weapon_box_tickets_cost": 2,
  		"magnet_tickets_cost": 1,
  		"faster_weapon_drop_tickets_cost": 1,
-        "pinata_more_visible_rv_button":true,
+                "pinata_more_visible_rv_button":true,
 		"extend_bonus_for_rv":false,            
 		"extend_bonus_frequency":60,
 		"extend_bonus_seconds_left_to_display_offer":30,
 		
-		"instant_bonus_boogiebomb":false,         // enable or disable boogie bomb bonus
+		"instant_bonus_boogiebomb":true,         // enable or disable boogie bomb bonus
 		
 		"boogiebomb_multiplyspeed_factor":2,     // how fast will be game after video watching
 		"boogiebomb_multiplyprofit_factor":2,    // profit multiplayer
@@ -45,9 +45,9 @@
 		"weapons_delivery_first_spawn_time":30,  // spawn first weapons box in X seconds after game started
 		"weapons_delivery_frequency":30,         // spawn weapons box each X seconds
 		
-    	"super_upgrade_frequency":2,             // offer video each X upgrades
-    	"super_upgrade_chance":0,               // chance to show video button instead of normal upgrade
-    	"super_upgrade_power":10,                // count of upgrades user get after video watching
+    	        "super_upgrade_frequency":2,             // offer video each X upgrades
+    	        "super_upgrade_chance":0,               // chance to show video button instead of normal upgrade
+    	        "super_upgrade_power":10,                // count of upgrades user get after video watching
 		
 		"golden_weapons_box":true,               // enable or disable golden weapons box bonus
 		"golden_weapons_box_frequency":3, 		 // how often normal weapons box will be replaced with golden box
