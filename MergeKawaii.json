@@ -1,0 +1,80 @@
+{
+	"DefaultValues": {
+		"interstitials_level_up": true,
+		"interstitials_upgrade": true,
+
+		"banner_enabled": false,
+		"enableBanner":true,
+
+		"interstitials_frequency": 300,
+		"interstitials_first_time_delay": 120,
+		"interstitials_first_level_up": 3,
+
+		"bonus_frequency_pinata_first": 180,
+		"bonus_frequency_pinata_second": 240,
+		"bonus_frequency_pinata_third": 300,
+
+		"weapons_delivery_weapons_count" : 18,
+
+		"BoosterBoxTimeMin":60, 
+		"BoosterBoxTimeMax":90, 
+
+		"instant_bonus_magnet": false, 
+		"instant_bonus_fast_spawn": true, 
+		"instant_bonus_coins":false,
+		"level_up":true, 
+		
+		"not_enough_money_upgrade_for_rv":false,
+		"not_enough_money_upgrade_for_rv_frequency":60,
+		"x2_boost_length":10, 
+		"fast_forward_tickets_cost": 5,
+ 		"weapon_box_tickets_cost": 2,
+ 		"magnet_tickets_cost": 1,
+ 		"faster_weapon_drop_tickets_cost": 1,
+        "pinata_more_visible_rv_button":true,
+		"extend_bonus_for_rv":false,            
+		"extend_bonus_frequency":60,
+		"extend_bonus_seconds_left_to_display_offer":30,
+		
+		"instant_bonus_boogiebomb":false,         // enable or disable boogie bomb bonus
+		
+		"boogiebomb_multiplyspeed_factor":2,     // how fast will be game after video watching
+		"boogiebomb_multiplyprofit_factor":2,    // profit multiplayer
+		"boogiebomb_duration":15,                // effect duration in seconds
+		
+		"weapons_delivery_first_spawn_time":30,  // spawn first weapons box in X seconds after game started
+		"weapons_delivery_frequency":30,         // spawn weapons box each X seconds
+		
+    	"super_upgrade_frequency":2,             // offer video each X upgrades
+    	"super_upgrade_chance":0,               // chance to show video button instead of normal upgrade
+    	"super_upgrade_power":10,                // count of upgrades user get after video watching
+		
+		"golden_weapons_box":false,               // enable or disable golden weapons box bonus
+		"golden_weapons_box_frequency":3, 		 // how often normal weapons box will be replaced with golden box
+		"golden_weapons_box_higher_level":40,     // how many levels will be added to spawned weapons
+		
+		"simple_version_enabled":true,              // enable or disable feature
+		"round_boosters_seconds_after_box_drop":25, // how many seconds since box dropping to display round booster
+		
+		"ab_test_new_users": 0
+	},
+
+	"ABTests": [
+
+		{
+			"id": "A",
+			"CohortWeight": 50,
+			"values": {
+				"simple_version_enabled":false
+			}
+		},
+
+		{
+			"id": "A",
+			"CohortWeight": 50,
+			"values": {
+				"simple_version_enabled":true
+			}
+		}
+	]
+}
