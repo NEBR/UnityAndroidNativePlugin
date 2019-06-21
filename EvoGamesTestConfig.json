@@ -62,6 +62,10 @@
 		"coins_round_booster_enable":true,
 		"magnet_round_booster_enable":true,
 		
+		"speed_upgrade_cost_factor":1,
+		"weapons_upgrade_cost_factor":1,
+		"profit_upgrade_cost_factor":1,
+		
 		"ab_test_new_users": 100
 	},
 	
