@@ -68,8 +68,11 @@
 		// 2. cost = 30000 * 2 = 60000.
 		// 3. cost = 60000 * 2 = 120000.
 		"speed_upgrade_cost_factor":1.5,      // baseCost: 30000, default factor: 2
-		"weapons_upgrade_cost_factor":2.2,  // baseCost: 25000, default factor: 3.6
-		"profit_upgrade_cost_factor":2,     // baseCost: 55000, default factor: 3
+		"weapons_upgrade_cost_factor":2.2,    // baseCost: 25000, default factor: 3.6
+		"profit_upgrade_cost_factor":2,       // baseCost: 55000, default factor: 3
+		
+		"flying_item_frequency": 30,          // time between flying items, 30 seconds by default
+                "flying_item_speed":0.5,              // how fast item flying on screen
 		
 		"ab_test_new_users": 100
 	},
