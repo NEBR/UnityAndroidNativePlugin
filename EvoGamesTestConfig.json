@@ -74,10 +74,13 @@
 		"flying_item_frequency": 30,          // time between flying items, 30 seconds by default
                 "flying_item_speed":0.5,              // how fast item flying on screen
 		
-		"xp_to_level_up_factor":3.5,          // factor to calculate experience levels. By defaul 4.5. Example:
-					              // level 1 xp: 3000.
-						      // level 2 xp: 3000 * 4.5 = 13500.
-						      // level 3 xp: 13500 * 4.5 = 60750.
+		// factor to calculate experience levels. By defaul 4.5. Example:
+	        // level 1 xp: 3000.
+	        // level 2 xp: 3000 * 4.5 = 13500.
+	        // level 3 xp: 13500 * 4.5 = 60750.
+		"xp_to_level_up_factor":4.5, 
+		
+		"upgrades_prestige_enabled":true,
 		
 		"ab_test_new_users": 100
 	},
