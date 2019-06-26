@@ -71,8 +71,8 @@
 		"weapons_upgrade_cost_factor":2.2,    // baseCost: 25000, default factor: 3.6
 		"profit_upgrade_cost_factor":2,       // baseCost: 55000, default factor: 3
 		
-		"flying_item_frequency": 30,          // time between flying items, 30 seconds by default
-                "flying_item_speed":0.5,              // how fast item flying on screen
+		"flying_item_frequency": 40,          // time between flying items, 40 seconds by default
+                "flying_item_speed":0.42,             // how fast item flying on screen
 		
 		// factor to calculate experience levels. By defaul 4.5. Example:
 	        // level 1 xp: 3000.
