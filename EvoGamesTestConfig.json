@@ -67,18 +67,18 @@
 		// 1. cost = 30000.
 		// 2. cost = 30000 * 2 = 60000.
 		// 3. cost = 60000 * 2 = 120000.
-		"speed_upgrade_cost_factor":2,      // baseCost: 30000, default factor: 2
-		"weapons_upgrade_cost_factor":3.6,    // baseCost: 25000, default factor: 3.6
-		"profit_upgrade_cost_factor":3,       // baseCost: 55000, default factor: 3
+		"speed_upgrade_cost_factor":2.1,      // baseCost: 30000, default factor: 2
+		"weapons_upgrade_cost_factor":3.7,    // baseCost: 25000, default factor: 3.6
+		"profit_upgrade_cost_factor":3.1,       // baseCost: 55000, default factor: 3
 		
-		"flying_item_frequency": 40,          // time between flying items, 40 seconds by default
-                "flying_item_speed":0.42,             // how fast item flying on screen
+		"flying_item_frequency": 42,          // time between flying items, 40 seconds by default
+                "flying_item_speed":0.43,             // how fast item flying on screen
 		
 		// factor to calculate experience levels. By defaul 4.5. Example:
 	        // level 1 xp: 3000.
 	        // level 2 xp: 3000 * 4.5 = 13500.
 	        // level 3 xp: 13500 * 4.5 = 60750.
-		"xp_to_level_up_factor":4.5, 
+		"xp_to_level_up_factor":4.2, 
 		
 		"upgrades_prestige_enabled":true,
 		
