@@ -1,13 +1,13 @@
 {
 	"DefaultValues": {
 		
-		"banner_enabled": false,
+		"banner_enabled": true,
 
-		"interstitials_frequency": 300,             // how often show interstitials
-		"interstitials_first_time_delay": 120,      // time since game load to first interstitial
-		"interstitials_first_level_up": 3,          // user should reach at least 3th level to see interstitial
+		"interstitials_frequency":150,             // how often show interstitials
+		"interstitials_first_time_delay": 60,      // time since game load to first interstitial
+		"interstitials_first_level_up": 1,          // user should reach at least 3th level to see interstitial
 		
-		"ab_test_new_users": 100
+		"ab_test_new_users": 50
 	},
 
 	"ABTests": [
