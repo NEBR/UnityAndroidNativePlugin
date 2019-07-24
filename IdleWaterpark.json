@@ -3,8 +3,8 @@
 		
 		// BOOSTERS
 		"round_boosters_frequency": 40,
-		"profit_round_booster_duration": 20,
-		"speed_round_booster_duration": 10,
+		"profit_round_booster_duration": 30,
+		"speed_round_booster_duration": 30,
 		
 		"ab_test_new_users": 100
 	},
@@ -15,7 +15,7 @@
 			"id": "A",
 			"CohortWeight": 50,
 			"values": {
-				"round_boosters_frequency": 60
+				"round_boosters_frequency": 40
 			}
 		},
 
@@ -23,7 +23,7 @@
 			"id": "B",
 			"CohortWeight": 50,
 			"values": {
-				"round_boosters_frequency": 40
+				"round_boosters_frequency": 30
 			}
 		}
 	]
