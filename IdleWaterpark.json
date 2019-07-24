@@ -7,7 +7,7 @@
 		"interstitials_first_time_delay": 60,      // time since game load to first interstitial
 		"interstitials_first_level_up": 1,          // user should reach at least 3th level to see interstitial
 		
-		"ab_test_new_users": 50
+		"ab_test_new_users": 100
 	},
 
 	"ABTests": [
