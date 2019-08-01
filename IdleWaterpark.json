@@ -18,7 +18,7 @@
 			"id": "A",
 			"CohortWeight": 50,
 			"values": {
-				"round_boosters_frequency": 40
+				"droneX10RewardEnable": true
 			}
 		},
 
@@ -26,7 +26,7 @@
 			"id": "B",
 			"CohortWeight": 50,
 			"values": {
-				"round_boosters_frequency": 30
+				"droneX10RewardEnable": false
 			}
 		}
 	]
