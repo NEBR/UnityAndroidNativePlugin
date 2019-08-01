@@ -1,33 +1,43 @@
 {
-	"DefaultValues": {
-		
-		"interstitials_frequency":300,
-		// BOOSTERS
-		"round_boosters_frequency": 40,
-		"profit_round_booster_duration": 30,
-		"speed_round_booster_duration": 30,
-		
-		"droneX10RewardEnable":true,
-		
-		"ab_test_new_users": 100
-	},
+"DefaultValues": {
 
-	"ABTests": [
+"interstitials_frequency":3000,
+// BOOSTERS
+"round_boosters_frequency": 40,
+"profit_round_booster_duration": 30,
+"speed_round_booster_duration": 30,
 
-		{
-			"id": "A",
-			"CohortWeight": 50,
-			"values": {
-				"droneX10RewardEnable": true
-			}
-		},
+"droneX10RewardEnable":false,
 
-		{
-			"id": "B",
-			"CohortWeight": 50,
-			"values": {
-				"droneX10RewardEnable": false
-			}
-		}
-	]
+"ab_test_new_users": 100
+},
+
+"ABTests": [
+
+{
+"id": "A",
+"CohortWeight": 33,
+"values": {
+"droneX10RewardEnable": true
+}
+},
+
+{
+"id": "B",
+"CohortWeight": 33,
+"values": {
+"interstitials_frequency":180
+}
+},
+
+{
+"id": "C",
+"CohortWeight": 33,
+"values": {
+
+}
+}
+
+
+]
 }
