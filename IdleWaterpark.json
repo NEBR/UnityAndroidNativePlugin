@@ -1,43 +1,61 @@
 {
-"DefaultValues": {
+  "DefaultValues": {
 
-"interstitials_frequency":3000,
-// BOOSTERS
-"round_boosters_frequency": 40,
-"profit_round_booster_duration": 30,
-"speed_round_booster_duration": 30,
+    "interstitials_frequency": 3000,
+    // BOOSTERS
+    "round_boosters_frequency": 40,
+    "profit_round_booster_duration": 30,
+    "speed_round_booster_duration": 30,
 
-"droneX10RewardEnable":false,
+    "droneX10RewardEnable": false,
 
-"ab_test_new_users": 100
-},
+    "ab_test_new_users": 100
+  },
 
-"ABTests": [
+  "ABTests": [
 
-{
-"id": "A",
-"CohortWeight": 33,
-"values": {
-"droneX10RewardEnable": true
-}
-},
+    {
+      "id": "A",
+      "CohortWeight": 20,
+      "values": {
+        "droneX10RewardEnable": true
+      }
+    },
 
-{
-"id": "B",
-"CohortWeight": 33,
-"values": {
-"interstitials_frequency":180
-}
-},
+    {
+      "id": "B",
+      "CohortWeight": 20,
+      "values": {
+        "interstitials_frequency": 180
+      }
+    },
 
-{
-"id": "C",
-"CohortWeight": 33,
-"values": {
+    {
+      "id": "C",
+      "CohortWeight": 20,
+      "values": {
+        "profit_round_booster_duration": 120,
+        "speed_round_booster_duration": 120
+      }
+    },
 
-}
-}
+    {
+      "id": "D",
+      "CohortWeight": 20,
+      "values": {
+        "profit_round_booster_duration": 300,
+        "speed_round_booster_duration": 300
+      }
+    },
+
+    {
+      "id": "E",
+      "CohortWeight": 20,
+      "values": {
+
+      }
+    }
 
 
-]
+  ]
 }
