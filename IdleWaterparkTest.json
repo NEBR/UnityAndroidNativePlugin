@@ -6,6 +6,13 @@
     "round_boosters_frequency": 40,
     "profit_round_booster_duration": 30,
     "speed_round_booster_duration": 30,
+    
+        // BALANCE
+    "upgradePriceTicket": 1 ,
+    "upgradePriceSpeed": 1,
+    "upgradePriceSlide": 1,
+    "xpToLevelUpFactor": 1,
+    "duckPayoutProfit": 1,
 
     "droneX10RewardEnable": false,
 
