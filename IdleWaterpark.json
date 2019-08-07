@@ -10,9 +10,9 @@
 "droneX10RewardEnable": false,
 
 // BALANCE
-"upgradePriceTicket": 1.5 ,
-"upgradePriceSpeed": 1.5,
-"upgradePriceSlide": 1.5,
+"upgradePriceTicket": 1,
+"upgradePriceSpeed": 1,
+"upgradePriceSlide": 1,
 "xpToLevelUpFactor": 1,
 "duckPayoutProfit": 1,
 
