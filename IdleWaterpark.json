@@ -1,68 +1,54 @@
 {
-  "DefaultValues": {
+"DefaultValues": {
 
-    "interstitials_frequency": 3000,
-    // BOOSTERS
-    "round_boosters_frequency": 40,
-    "profit_round_booster_duration": 30,
-    "speed_round_booster_duration": 30,
+"interstitials_frequency": 3000,
+// BOOSTERS
+"round_boosters_frequency": 40,
+"profit_round_booster_duration": 120,
+"speed_round_booster_duration": 120,
 
-    "droneX10RewardEnable": false,
-    
-    // BALANCE
-    "upgradePriceTicket": 1 ,
-    "upgradePriceSpeed": 1,
-    "upgradePriceSlide": 1,
-    "xpToLevelUpFactor": 1,
-    "duckPayoutProfit": 1,
+"droneX10RewardEnable": false,
 
-    "ab_test_new_users": 100
-  },
+// BALANCE
+"upgradePriceTicket": 1 ,
+"upgradePriceSpeed": 1,
+"upgradePriceSlide": 1,
+"xpToLevelUpFactor": 1,
+"duckPayoutProfit": 1,
 
-  "ABTests": [
+"ab_test_new_users": 100
+},
 
-    {
-      "id": "A",
-      "CohortWeight": 20,
-      "values": {
-        "droneX10RewardEnable": true
-      }
-    },
+"ABTests": [
 
-    {
-      "id": "B",
-      "CohortWeight": 20,
-      "values": {
-        "interstitials_frequency": 180
-      }
-    },
-
-    {
-      "id": "C",
-      "CohortWeight": 20,
-      "values": {
-        "profit_round_booster_duration": 120,
-        "speed_round_booster_duration": 120
-      }
-    },
-
-    {
-      "id": "D",
-      "CohortWeight": 20,
-      "values": {
-        "profit_round_booster_duration": 300,
-        "speed_round_booster_duration": 300
-      }
-    },
-
-    {
-      "id": "E",
-      "CohortWeight": 20,
-      "values": {
-
-      }
-    }
+{
+"id": "A",
+"CohortWeight": 25,
+"values": {
+"droneX10RewardEnable": true
 
 
-  ]
+}
+},
+
+{
+"id": "B",
+"CohortWeight": 25,
+"values": {
+"droneX10RewardEnable": true,
+"interstitials_frequency": 110
+
+}
+},
+
+{
+"id": "C",
+"CohortWeight": 50,
+"values": {
+
+}
+}
+
+
+]
 }
