@@ -36,7 +36,7 @@
 "CohortWeight": 25,
 "values": {
 "droneX10RewardEnable": true,
-"interstitials_frequency": 120
+"interstitials_frequency": 110
 
 }
 },
