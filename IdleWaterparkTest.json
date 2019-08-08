@@ -16,7 +16,7 @@
 "xpToLevelUpFactor": 1,
 "duckPayoutProfit": 1,
 
-"ornament_for_video": true,
+"ornament_for_video": false,
 "ab_test_new_users": 100
 },
 
