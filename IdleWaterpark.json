@@ -13,8 +13,8 @@
 "upgradePriceTicket": 1,
 "upgradePriceSpeed": 1,
 "upgradePriceSlide": 1,
-"xpToLevelUpFactor": 1.5,
-"duckPayoutProfit": 1.5,
+"xpToLevelUpFactor": 1,
+"duckPayoutProfit": 1,
 
 "ab_test_new_users": 100
 },
