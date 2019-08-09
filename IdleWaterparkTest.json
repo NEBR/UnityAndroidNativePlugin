@@ -18,6 +18,7 @@
 "levelUpTimeBase":false,
 
 "ornament_for_video": false,
+"skins_system":false,
 "ab_test_new_users": 100
 },
 
@@ -25,7 +26,7 @@
 
 {
 "id": "A",
-"CohortWeight": 33,
+"CohortWeight": 25,
 "values": {
 "levelUpTimeBase": 110
 }
@@ -33,7 +34,7 @@
 
 {
 "id": "B",
-"CohortWeight": 33,
+"CohortWeight": 25,
 "values": {
 "interstitials_frequency": 110
 }
@@ -41,9 +42,16 @@
 
 {
 "id": "C",
-"CohortWeight": 33,
+"CohortWeight": 25,
 "values": {
-
+"skins_system":true
+}
+},
+  
+{
+"id": "D",
+"CohortWeight": 25,
+"values": {
 }
 }
 
