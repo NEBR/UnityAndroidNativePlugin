@@ -33,7 +33,7 @@
 
 {
 "id": "B",
-"CohortWeight": 25,
+"CohortWeight": 33,
 "values": {
 "interstitials_frequency": 110
 }
@@ -41,7 +41,7 @@
 
 {
 "id": "C",
-"CohortWeight": 50,
+"CohortWeight": 33,
 "values": {
 
 }
