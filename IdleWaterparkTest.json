@@ -28,7 +28,7 @@
 "id": "A",
 "CohortWeight": 25,
 "values": {
-"levelUpTimeBase": 110
+"levelUpTimeBase": true
 }
 },
 
