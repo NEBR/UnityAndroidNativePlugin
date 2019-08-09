@@ -7,7 +7,7 @@
 "profit_round_booster_duration": 120,
 "speed_round_booster_duration": 120,
 
-"droneX10RewardEnable": false,
+"droneX10RewardEnable": true,
 
 // BALANCE
 "upgradePriceTicket": 1 ,
@@ -15,7 +15,7 @@
 "upgradePriceSlide": 1,
 "xpToLevelUpFactor": 1,
 "duckPayoutProfit": 1,
-"levelUpTimeBase":true,
+"levelUpTimeBase":false,
 
 "ornament_for_video": false,
 "ab_test_new_users": 100
@@ -25,11 +25,9 @@
 
 {
 "id": "A",
-"CohortWeight": 25,
+"CohortWeight": 33,
 "values": {
-"droneX10RewardEnable": true
-
-
+"levelUpTimeBase": 110
 }
 },
 
@@ -37,9 +35,7 @@
 "id": "B",
 "CohortWeight": 25,
 "values": {
-"droneX10RewardEnable": true,
 "interstitials_frequency": 110
-
 }
 },
 
