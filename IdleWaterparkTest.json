@@ -15,6 +15,7 @@
 "upgradePriceSlide": 1,
 "xpToLevelUpFactor": 1,
 "duckPayoutProfit": 1,
+"levelUpTimeBase":true,
 
 "ornament_for_video": false,
 "ab_test_new_users": 100
