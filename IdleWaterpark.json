@@ -7,15 +7,18 @@
 "profit_round_booster_duration": 120,
 "speed_round_booster_duration": 120,
 
-"droneX10RewardEnable": false,
+"droneX10RewardEnable": true,
 
 // BALANCE
-"upgradePriceTicket": 1,
+"upgradePriceTicket": 1 ,
 "upgradePriceSpeed": 1,
 "upgradePriceSlide": 1,
 "xpToLevelUpFactor": 1,
-"duckPayoutProfit": 1,
+"duckPayoutProfit": 1.2,
+"levelUpTimeBase":false,
 
+"ornament_for_video": false,
+"skins_system":false,
 "ab_test_new_users": 100
 },
 
@@ -25,9 +28,7 @@
 "id": "A",
 "CohortWeight": 25,
 "values": {
-"droneX10RewardEnable": true
-
-
+"levelUpTimeBase": true
 }
 },
 
@@ -35,17 +36,22 @@
 "id": "B",
 "CohortWeight": 25,
 "values": {
-"droneX10RewardEnable": true,
 "interstitials_frequency": 110
-
 }
 },
 
 {
 "id": "C",
-"CohortWeight": 50,
+"CohortWeight": 25,
 "values": {
-
+"skins_system":true
+}
+},
+  
+{
+"id": "D",
+"CohortWeight": 25,
+"values": {
 }
 }
 
