@@ -18,7 +18,7 @@
 "levelUpTimeBase":false,
 
 "ornament_for_video": false,
-"skins_system":false,
+"skins_system":true,
 "ab_test_new_users": 100
 },
 
