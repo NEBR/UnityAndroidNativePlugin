@@ -15,7 +15,7 @@
 "upgradePriceSlide": 1,
 "xpToLevelUpFactor": 1,
 "duckPayoutProfit": 1.2,
-"levelUpTimeBase":false,
+"levelUpTimeBase":true,
 
 "ornament_for_video": false,
 "skins_system":true,
