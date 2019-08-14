@@ -48,8 +48,8 @@
 "id": "C",
 "CohortWeight": 25,
 "values": {
-"interstitials_enabled":true
-  "interstitials_frequency": 100
+"interstitials_enabled":true,
+"interstitials_frequency": 100
 }
 },
   
