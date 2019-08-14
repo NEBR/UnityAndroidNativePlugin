@@ -20,7 +20,7 @@
 
 "ornament_for_video": false,
 "skins_system":true,
-"world2_unlock_timer_enable":true,
+"world2_unlock_timer_enable":false,
 "world2_unlock_hours":1,
 "world2_unlock_at_level":15,
 "ab_test_new_users": 100
