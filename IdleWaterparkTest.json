@@ -40,7 +40,7 @@
 "id": "B",
 "CohortWeight": 25,
 "values": {
-"world2_unlock_timer_enable":false
+"world2_unlock_timer_enable":true
 }
 },
 
