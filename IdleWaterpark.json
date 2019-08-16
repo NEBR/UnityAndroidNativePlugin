@@ -1,6 +1,7 @@
 {
 "DefaultValues": {
 
+"interstitials_enabled":false,
 "interstitials_frequency": 3000,
 // BOOSTERS
 "round_boosters_frequency": 40,
@@ -33,7 +34,8 @@
 "id": "A",
 "CohortWeight": 25,
 "values": {
-"levelUpTimeBase": true
+"world2_unlock_at_level":20,
+"world3_unlock_at_level":40
 }
 },
 
@@ -41,7 +43,7 @@
 "id": "B",
 "CohortWeight": 25,
 "values": {
-"interstitials_frequency": 105
+"world2_unlock_timer_enable":true
 }
 },
 
@@ -49,14 +51,15 @@
 "id": "C",
 "CohortWeight": 25,
 "values": {
-"skins_system":true
+"levelUpTimeBase":false
 }
 },
-  
+
 {
 "id": "D",
 "CohortWeight": 25,
 "values": {
+"world2_unlock_at_level":15
 }
 }
 
