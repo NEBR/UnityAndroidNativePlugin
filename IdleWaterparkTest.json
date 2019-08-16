@@ -18,6 +18,7 @@
 "duckPayoutProfit": 1.2,
 "levelUpTimeBase":true,
 
+ "tutorial":true,
 "ornament_for_video": false,
 "skins_system":true,
 "world2_unlock_timer_enable":false,
