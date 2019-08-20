@@ -19,7 +19,7 @@
 "levelUpTimeBase":true,
 
 "tutorial":false,
-"ornament_for_video": false,
+"ornament_for_video": true,
 "skins_system":true,
 "world2_unlock_timer_enable":false,
 "world2_unlock_hours":24,
