@@ -25,41 +25,50 @@
 "world2_unlock_hours":24,
 "world2_unlock_at_level":20,
 "world3_unlock_at_level":40,
-"ab_test_new_users": 1
+"zoom_out":false,
+"slower_gameplay":false,
+"ab_test_new_users": 100
 },
 
 "ABTests": [
 
 {
 "id": "A",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
-"world2_unlock_at_level":20,
-"world3_unlock_at_level":40
+"droneX10RewardEnable":false
 }
 },
 
 {
 "id": "B",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
-"world2_unlock_timer_enable":true
+"slower_gameplay":true
 }
 },
 
 {
 "id": "C",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
-"levelUpTimeBase":false
+"zoom_out":true
 }
 },
 
 {
 "id": "D",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
-"world2_unlock_at_level":15
+"tutorial":true
+}
+},
+  
+{
+"id": "E",
+"CohortWeight": 20,
+"values": {
+
 }
 }
 
