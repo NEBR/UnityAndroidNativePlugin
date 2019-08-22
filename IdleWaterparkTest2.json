@@ -25,6 +25,7 @@
 "world2_unlock_hours":24,
 "world2_unlock_at_level":15,
 "world3_unlock_at_level":30,
+"zoom_out":true,
 "ab_test_new_users": 100
 },
 
