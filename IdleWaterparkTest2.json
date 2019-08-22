@@ -25,8 +25,8 @@
 "world2_unlock_hours":24,
 "world2_unlock_at_level":20,
 "world3_unlock_at_level":40,
-"zoom_out":true,
-"slower_gameplay":true,
+"zoom_out":false,
+"slower_gameplay":false,
 "ab_test_new_users": 100
 },
 
@@ -52,7 +52,7 @@
 "id": "C",
 "CohortWeight": 25,
 "values": {
-"levelUpTimeBase":false
+"zoom_out":true
 }
 },
 
@@ -60,7 +60,7 @@
 "id": "D",
 "CohortWeight": 25,
 "values": {
-"world2_unlock_at_level":15
+
 }
 }
 
