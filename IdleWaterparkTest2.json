@@ -34,15 +34,15 @@
 
 {
 "id": "A",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
-"droneX10RewardEnable": false
+"droneX10RewardEnable":false
 }
 },
 
 {
 "id": "B",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
 "slower_gameplay":true
 }
@@ -50,7 +50,7 @@
 
 {
 "id": "C",
-"CohortWeight": 25,
+"CohortWeight": 20,
 "values": {
 "zoom_out":true
 }
@@ -58,7 +58,15 @@
 
 {
 "id": "D",
-"CohortWeight": 25,
+"CohortWeight": 20,
+"values": {
+"ornament_for_video":true
+}
+},
+  
+{
+"id": "E",
+"CohortWeight": 20,
 "values": {
 
 }
