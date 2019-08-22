@@ -18,13 +18,13 @@
 "duckPayoutProfit": 1.2,
 "levelUpTimeBase":true,
 
-"tutorial":false,
+"tutorial":true,
 "ornament_for_video": true,
 "skins_system":true,
 "world2_unlock_timer_enable":false,
 "world2_unlock_hours":24,
-"world2_unlock_at_level":15,
-"world3_unlock_at_level":30,
+"world2_unlock_at_level":20,
+"world3_unlock_at_level":40,
 "zoom_out":true,
 "ab_test_new_users": 100
 },
