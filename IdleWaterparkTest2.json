@@ -34,7 +34,7 @@
 
 {
 "id": "A",
-"CohortWeight": 20,
+"CohortWeight": 50,
 "values": {
 "droneX10RewardEnable":true
 }
@@ -42,7 +42,7 @@
 
 {
 "id": "B",
-"CohortWeight": 80,
+"CohortWeight": 50,
 "values": {
 
 }
