@@ -8,7 +8,7 @@
 "profit_round_booster_duration": 120,
 "speed_round_booster_duration": 120,
 
-"droneX10RewardEnable": true,
+"droneX10RewardEnable": false,
 
 // BALANCE
 "upgradePriceTicket": 1 ,
@@ -18,14 +18,14 @@
 "duckPayoutProfit": 1.2,
 "levelUpTimeBase":true,
 
-"tutorial":false,
+"tutorial":true,
 "ornament_for_video": false,
 "skins_system":true,
 "world2_unlock_timer_enable":false,
 "world2_unlock_hours":24,
 "world2_unlock_at_level":20,
 "world3_unlock_at_level":40,
-"zoom_out":false,
+"zoom_out":true,
 "slower_gameplay":false,
 "ab_test_new_users": 100
 },
@@ -36,42 +36,16 @@
 "id": "A",
 "CohortWeight": 20,
 "values": {
-"droneX10RewardEnable":false
+"droneX10RewardEnable":true
 }
 },
 
 {
 "id": "B",
-"CohortWeight": 20,
+"CohortWeight": 80,
 "values": {
-"slower_gameplay":true
+
 }
 },
-
-{
-"id": "C",
-"CohortWeight": 20,
-"values": {
-"zoom_out":true
-}
-},
-
-{
-"id": "D",
-"CohortWeight": 20,
-"values": {
-"tutorial":true
-}
-},
-  
-{
-"id": "E",
-"CohortWeight": 20,
-"values": {
-
-}
-}
-
-
 ]
 }
