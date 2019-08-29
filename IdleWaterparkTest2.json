@@ -27,7 +27,7 @@
 "world3_unlock_at_level":40,
 "zoom_out":true,
 "slower_gameplay":false,
-"show_upper_buttons":true,
+"show_upper_buttons":false,
 "ab_test_new_users": 100
 },
 
