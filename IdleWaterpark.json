@@ -27,7 +27,7 @@
 "world3_unlock_at_level":40,
 "zoom_out":true,
 "slower_gameplay":false,
-"show_upper_buttons":false,
+"show_upper_buttons":true,
 "ab_test_new_users": 100
 },
 
@@ -35,7 +35,7 @@
 
 {
 "id": "A",
-"CohortWeight": 50,
+"CohortWeight": 40,
 "values": {
 "droneX10RewardEnable":true
 }
@@ -43,9 +43,17 @@
 
 {
 "id": "B",
-"CohortWeight": 50,
+"CohortWeight": 40,
 "values": {
-
+"droneX10RewardEnable":true
+}
+},
+  
+{
+"id": "C",
+"CohortWeight": 20,
+"values": {
+"show_upper_buttons":false
 }
 }
   
