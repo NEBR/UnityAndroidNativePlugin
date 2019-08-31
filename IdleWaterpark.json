@@ -35,25 +35,17 @@
 
 {
 "id": "A",
-"CohortWeight": 40,
+"CohortWeight": 20,
 "values": {
-"droneX10RewardEnable":true
-}
-},
-
-{
-"id": "B",
-"CohortWeight": 40,
-"values": {
-"droneX10RewardEnable":true
+"show_upper_buttons":false
 }
 },
   
 {
-"id": "C",
-"CohortWeight": 20,
+"id": "B",
+"CohortWeight": 80,
 "values": {
-"show_upper_buttons":false
+
 }
 }
   
