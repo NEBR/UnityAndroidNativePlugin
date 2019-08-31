@@ -8,7 +8,7 @@
 "profit_round_booster_duration": 120,
 "speed_round_booster_duration": 120,
 
-"droneX10RewardEnable": false,
+"droneX10RewardEnable": true,
 
 // BALANCE
 "upgradePriceTicket": 1 ,
