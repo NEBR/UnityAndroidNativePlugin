@@ -90,11 +90,7 @@
 			"id": "B",
 			"CohortWeight": 50,
 			"values": {
-				"upgrades_prestige_enabled": true,
-				"xp_to_level_up_factor": 3,
-				"speed_upgrade_cost_factor": 1.5,
-				"weapons_upgrade_cost_factor": 3,
-				"profit_upgrade_cost_factor": 2.2
+				"upgrades_prestige_enabled": true
 			}
 		}
 	]
