@@ -22,7 +22,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 20,
+      "CohortWeight": 50,
       "values": {
         "finish_egypt_to_unlock_liberty":true
       }
@@ -30,7 +30,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 20,
+      "CohortWeight": 50,
       "values": {
 
       }
