@@ -10,7 +10,7 @@
     "speed_round_booster_duration": 30,
     
     // WORLDS
-    "finish_egypt_to_unlock_liberty":false,
+    "finish_egypt_to_unlock_liberty": false,
     "reach_level_to_unlock_liberty": 5, 
 
     // MISCELLANEOUS
@@ -24,7 +24,7 @@
       "id": "A",
       "CohortWeight": 20,
       "values": {
-        "finish_egypt_to_unlock_liberty":true,
+        "finish_egypt_to_unlock_liberty":true
       }
     },
 
