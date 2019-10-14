@@ -8,13 +8,10 @@
     "round_boosters_frequency": 40,
     "profit_round_booster_duration": 30,
     "speed_round_booster_duration": 30,
-
-    // BALANCE
-    "upgradePriceProfit":1,
-    "upgradePriceSpeed":1 ,
-    "upgradePriceWorker":1,
-    "xpToLevelUpFactor":1,
-    "duckPayoutProfit":1,
+    
+    // WORLDS
+    "finish_egypt_to_unlock_liberty":false,
+    "reach_level_to_unlock_liberty": 5, 
 
     // MISCELLANEOUS
     "tutorial": false,
@@ -27,7 +24,7 @@
       "id": "A",
       "CohortWeight": 20,
       "values": {
-
+        "finish_egypt_to_unlock_liberty":true,
       }
     },
 
@@ -35,36 +32,8 @@
       "id": "B",
       "CohortWeight": 20,
       "values": {
-        "interstitials_frequency": 180
-      }
-    },
-
-    {
-      "id": "C",
-      "CohortWeight": 20,
-      "values": {
-        "profit_round_booster_duration": 120,
-        "speed_round_booster_duration": 120
-      }
-    },
-
-    {
-      "id": "D",
-      "CohortWeight": 20,
-      "values": {
-        "profit_round_booster_duration": 300,
-        "speed_round_booster_duration": 300
-      }
-    },
-
-    {
-      "id": "E",
-      "CohortWeight": 20,
-      "values": {
 
       }
     }
-
-
   ]
 }
