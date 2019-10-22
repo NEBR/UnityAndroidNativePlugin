@@ -1,8 +1,8 @@
 {
   "DefaultValues": {
 
-    "interstitials_enabled":true,
-    "interstitials_frequency": 3000,
+    "interstitials_enabled":false,
+    "interstitials_frequency": 90,
     
     // BOOSTERS
     "round_boosters_frequency": 40,
@@ -17,6 +17,7 @@
 
     // MISCELLANEOUS
     "tutorial": false,
+    "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
 
@@ -24,7 +25,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
       "values": {
         "finish_egypt_to_unlock_liberty": true,
         "finish_liberty_to_unlock_paris": true
@@ -33,7 +34,23 @@
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
+      "values": {
+        "extendUpgradesTo75": false
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 25,
+      "values": {
+        "interstitials_enabled":true
+      }
+    },
+    
+    {
+      "id": "D",
+      "CohortWeight": 25,
       "values": {
 
       }
