@@ -17,6 +17,7 @@
 
     // MISCELLANEOUS
     "tutorial": false,
+    "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
 
@@ -24,7 +25,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 50,
+      "CohortWeight": 33,
       "values": {
         "finish_egypt_to_unlock_liberty": true,
         "finish_liberty_to_unlock_paris": true
@@ -33,7 +34,15 @@
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 33,
+      "values": {
+        "extendUpgradesTo75": false
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 33,
       "values": {
 
       }
