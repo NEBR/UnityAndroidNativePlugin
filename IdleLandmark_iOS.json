@@ -1,0 +1,42 @@
+{
+  "DefaultValues": {
+
+    "interstitials_enabled":true,
+    "interstitials_frequency": 3000,
+    
+    // BOOSTERS
+    "round_boosters_frequency": 40,
+    "profit_round_booster_duration": 30,
+    "speed_round_booster_duration": 30,
+    
+    // WORLDS
+    "finish_egypt_to_unlock_liberty": false,
+    "reach_level_to_unlock_liberty": 5, 
+    "finish_liberty_to_unlock_paris": false,
+    "reach_level_to_unlock_paris": 15,
+
+    // MISCELLANEOUS
+    "tutorial": false,
+    "ab_test_new_users": 100
+  },
+
+  "ABTests": [
+
+    {
+      "id": "A",
+      "CohortWeight": 50,
+      "values": {
+        "finish_egypt_to_unlock_liberty": true,
+        "finish_liberty_to_unlock_paris": true
+      }
+    },
+
+    {
+      "id": "B",
+      "CohortWeight": 50,
+      "values": {
+
+      }
+    }
+  ]
+}
