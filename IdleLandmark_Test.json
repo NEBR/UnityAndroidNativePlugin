@@ -17,7 +17,7 @@
 
     // MISCELLANEOUS
     "tutorial": false,
-    "extendUpgradesTo75":true,
+    "extendUpgradesTo75":false,
     "ab_test_new_users": 100
   },
 
@@ -36,7 +36,7 @@
       "id": "B",
       "CohortWeight": 25,
       "values": {
-        "extendUpgradesTo75": false
+        "extendUpgradesTo75": true
       }
     },
     
