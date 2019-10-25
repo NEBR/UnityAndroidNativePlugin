@@ -18,41 +18,41 @@
     // MISCELLANEOUS
     "tutorial": false,
     "extendUpgradesTo75":true,
-    "ab_test_new_users": 100
+    "ab_test_new_users": 99
   },
 
   "ABTests": [
 
     {
       "id": "A",
-      "CohortWeight": 25,
+      "CohortWeight": 33,
       "values": {
-        "finish_egypt_to_unlock_liberty": true,
-        "finish_liberty_to_unlock_paris": true
+        "profit_round_booster_duration": 60,
+        "speed_round_booster_duration": 60
+    
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 25,
-      "values": {
-        "extendUpgradesTo75": false
-      }
-    },
-    
-    {
-      "id": "C",
-      "CohortWeight": 25,
+      "CohortWeight": 33,
       "values": {
         "interstitials_enabled":true
       }
     },
+    {
+      "id": "C",
+      "CohortWeight": 33,
+      "values": {
+         "profit_round_booster_duration": 90,
+         "speed_round_booster_duration": 90
     
+      }
+    },
     {
       "id": "D",
-      "CohortWeight": 25,
+      "CohortWeight": 33,
       "values": {
-
       }
     }
   ]
