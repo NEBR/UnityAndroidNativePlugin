@@ -10,9 +10,9 @@
     "speed_round_booster_duration": 30,
     
     // WORLDS
-    "finish_egypt_to_unlock_liberty": false,
+    "finish_egypt_to_unlock_liberty": true,
     "reach_level_to_unlock_liberty": 5, 
-    "finish_liberty_to_unlock_paris": false,
+    "finish_liberty_to_unlock_paris": true,
     "reach_level_to_unlock_paris": 15,
 
     // MISCELLANEOUS
