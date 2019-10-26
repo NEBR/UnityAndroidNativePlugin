@@ -18,7 +18,7 @@
     // MISCELLANEOUS
     "tutorial": false,
     "extendUpgradesTo75":true,
-    "ab_test_new_users": 99
+    "ab_test_new_users": 100
   },
 
   "ABTests": [
