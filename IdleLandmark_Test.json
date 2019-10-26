@@ -18,14 +18,14 @@
     // MISCELLANEOUS
     "tutorial": false,
     "extendUpgradesTo75":true,
-    "ab_test_new_users": 99
+    "ab_test_new_users": 100
   },
 
   "ABTests": [
 
     {
       "id": "A",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
         "profit_round_booster_duration": 60,
         "speed_round_booster_duration": 60
@@ -35,14 +35,14 @@
 
     {
       "id": "B",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
         "interstitials_enabled":true
       }
     },
     {
       "id": "C",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
          "profit_round_booster_duration": 90,
          "speed_round_booster_duration": 90
@@ -51,7 +51,7 @@
     },
     {
       "id": "D",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
       }
     }
