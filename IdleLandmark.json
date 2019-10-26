@@ -10,15 +10,15 @@
     "speed_round_booster_duration": 30,
     
     // WORLDS
-    "finish_egypt_to_unlock_liberty": false,
+    "finish_egypt_to_unlock_liberty": true,
     "reach_level_to_unlock_liberty": 5, 
-    "finish_liberty_to_unlock_paris": false,
+    "finish_liberty_to_unlock_paris": true,
     "reach_level_to_unlock_paris": 15,
 
     // MISCELLANEOUS
     "tutorial": false,
     "extendUpgradesTo75":true,
-    "ab_test_new_users": 100
+    "ab_test_new_users": 99
   },
 
   "ABTests": [
@@ -27,8 +27,9 @@
       "id": "A",
       "CohortWeight": 25,
       "values": {
-        "finish_egypt_to_unlock_liberty": true,
-        "finish_liberty_to_unlock_paris": true
+        "profit_round_booster_duration": 60,
+        "speed_round_booster_duration": 60
+    
       }
     },
 
@@ -36,23 +37,22 @@
       "id": "B",
       "CohortWeight": 25,
       "values": {
-        "extendUpgradesTo75": false
+        "interstitials_enabled":true
       }
     },
-    
     {
       "id": "C",
       "CohortWeight": 25,
       "values": {
-        "interstitials_enabled":true
+         "profit_round_booster_duration": 90,
+         "speed_round_booster_duration": 90
+    
       }
     },
-    
     {
       "id": "D",
       "CohortWeight": 25,
       "values": {
-
       }
     }
   ]
