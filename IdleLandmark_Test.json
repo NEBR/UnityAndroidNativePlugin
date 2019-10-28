@@ -14,7 +14,7 @@
     "reach_level_to_unlock_liberty": 5, 
     "finish_liberty_to_unlock_paris": true,
     "reach_level_to_unlock_paris": 15,
-    "finish_paris_to_unlock_empire":true,
+    "finish_paris_to_unlock_empire": true,
     "reach_level_to_unlock_empire": 30,
 
     // MISCELLANEOUS
