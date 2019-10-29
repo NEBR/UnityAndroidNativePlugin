@@ -18,7 +18,7 @@
     "reach_level_to_unlock_empire": 30,
 
     // MISCELLANEOUS
-    "tutorial": false,
+    "tutorial": true,
     "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
