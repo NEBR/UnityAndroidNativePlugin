@@ -27,7 +27,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
         "profit_round_booster_duration": 60,
         "speed_round_booster_duration": 60
@@ -37,7 +37,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
         
       }
