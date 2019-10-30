@@ -18,7 +18,7 @@
     "reach_level_to_unlock_empire": 30,
 
     // MISCELLANEOUS
-    "tutorial": true,
+    "tutorial": false,
     "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
@@ -29,9 +29,7 @@
       "id": "A",
       "CohortWeight": 50,
       "values": {
-        "profit_round_booster_duration": 60,
-        "speed_round_booster_duration": 60
-    
+        "tutorial": true
       }
     },
 
