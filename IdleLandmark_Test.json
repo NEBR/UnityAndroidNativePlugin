@@ -1,13 +1,13 @@
 {
   "DefaultValues": {
 
-    "interstitials_enabled":false,
+    "interstitials_enabled":true,
     "interstitials_frequency": 90,
     
     // BOOSTERS
     "round_boosters_frequency": 40,
-    "profit_round_booster_duration": 30,
-    "speed_round_booster_duration": 30,
+    "profit_round_booster_duration": 60,
+    "speed_round_booster_duration": 60,
     
     // WORLDS
     "finish_egypt_to_unlock_liberty": true,
@@ -39,22 +39,7 @@
       "id": "B",
       "CohortWeight": 25,
       "values": {
-        "interstitials_enabled":true
-      }
-    },
-    {
-      "id": "C",
-      "CohortWeight": 25,
-      "values": {
-         "profit_round_booster_duration": 90,
-         "speed_round_booster_duration": 90
-    
-      }
-    },
-    {
-      "id": "D",
-      "CohortWeight": 25,
-      "values": {
+        
       }
     }
   ]
