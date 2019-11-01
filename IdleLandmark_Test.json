@@ -20,7 +20,7 @@
     "reach_level_to_unlock_washington":50,
 
     // MISCELLANEOUS
-    "tutorial": false,
+    "tutorial": true,
     "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
