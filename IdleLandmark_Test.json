@@ -42,17 +42,20 @@
          "interstitials_frequency": 90
       }
     },
+    
      {
       "id": "C",
       "CohortWeight": 25,
       "values": {
         "interstitials_frequency": 120
-      },
-       {
+      }
+     },
+    
+     {
       "id": "D",
       "CohortWeight": 25,
       "values": {
-       
+       "interstitials_enabled":false
       }
     }
   ]
