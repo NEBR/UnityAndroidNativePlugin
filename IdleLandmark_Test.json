@@ -16,6 +16,8 @@
     "reach_level_to_unlock_paris": 15,
     "finish_paris_to_unlock_empire": true,
     "reach_level_to_unlock_empire": 30,
+    "finish_empire_to_unlock_washington":true,
+    "reach_level_to_unlock_washington":50,
 
     // MISCELLANEOUS
     "tutorial": false,
