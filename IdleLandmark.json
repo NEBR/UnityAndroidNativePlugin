@@ -20,7 +20,7 @@
     "reach_level_to_unlock_washington":50,
 
     // MISCELLANEOUS
-    "tutorial": false,
+    "tutorial": true,
     "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
@@ -31,6 +31,7 @@
       "id": "A",
       "CohortWeight": 25,
       "values": {
+        "interstitials_enabled":true,
         "interstitials_frequency": 60
       }
     },
@@ -39,6 +40,7 @@
       "id": "B",
       "CohortWeight": 25,
       "values": {
+        "interstitials_enabled":true,
         "interstitials_frequency": 90
       }
     },
@@ -46,6 +48,7 @@
       "id": "C",
       "CohortWeight": 25,
       "values": {
+        "interstitials_enabled":true,
         "interstitials_frequency": 120
       }
     },
@@ -53,7 +56,7 @@
       "id": "D",
       "CohortWeight": 25,
       "values": {
-        "interstitials_enabled":false
+        
       }
     }
   ]
