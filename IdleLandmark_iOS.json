@@ -1,22 +1,27 @@
 {
   "DefaultValues": {
 
-    "interstitials_enabled":true,
-    "interstitials_frequency": 3000,
+    "interstitials_enabled":false,
+    "interstitials_frequency": 90,
     
     // BOOSTERS
     "round_boosters_frequency": 40,
-    "profit_round_booster_duration": 30,
-    "speed_round_booster_duration": 30,
+    "profit_round_booster_duration": 60,
+    "speed_round_booster_duration": 60,
     
     // WORLDS
-    "finish_egypt_to_unlock_liberty": false,
+    "finish_egypt_to_unlock_liberty": true,
     "reach_level_to_unlock_liberty": 5, 
-    "finish_liberty_to_unlock_paris": false,
+    "finish_liberty_to_unlock_paris": true,
     "reach_level_to_unlock_paris": 15,
+    "finish_paris_to_unlock_empire": true,
+    "reach_level_to_unlock_empire": 30,
+    "finish_empire_to_unlock_washington":true,
+    "reach_level_to_unlock_washington":50,
 
     // MISCELLANEOUS
-    "tutorial": false,
+    "tutorial": true,
+    "extendUpgradesTo75":true,
     "ab_test_new_users": 100
   },
 
@@ -24,18 +29,34 @@
 
     {
       "id": "A",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
       "values": {
-        "finish_egypt_to_unlock_liberty": true,
-        "finish_liberty_to_unlock_paris": true
+        "interstitials_enabled":true,
+        "interstitials_frequency": 60
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
       "values": {
-
+        "interstitials_enabled":true,
+        "interstitials_frequency": 90
+      }
+    },
+    {
+      "id": "C",
+      "CohortWeight": 25,
+      "values": {
+        "interstitials_enabled":true,
+        "interstitials_frequency": 120
+      }
+    },
+    {
+      "id": "D",
+      "CohortWeight": 25,
+      "values": {
+        
       }
     }
   ]
