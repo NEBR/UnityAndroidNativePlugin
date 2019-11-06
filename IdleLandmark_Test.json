@@ -18,6 +18,7 @@
     "reach_level_to_unlock_empire": 30,
     "finish_empire_to_unlock_washington":true,
     "reach_level_to_unlock_washington":50,
+    "liberty_world_easy_math":false,
 
     // MISCELLANEOUS
     "tutorial": true,
@@ -29,33 +30,17 @@
 
     {
       "id": "A",
-      "CohortWeight":25,
+      "CohortWeight":50,
       "values": {
-        "interstitials_frequency": 60
+        "liberty_world_easy_math":true
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
-         "interstitials_frequency": 90
-      }
-    },
-    
-     {
-      "id": "C",
-      "CohortWeight": 25,
-      "values": {
-        "interstitials_frequency": 120
-      }
-     },
-    
-     {
-      "id": "D",
-      "CohortWeight": 25,
-      "values": {
-       "interstitials_enabled":false
+
       }
     }
   ]
