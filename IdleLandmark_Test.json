@@ -1,6 +1,5 @@
 {
   "DefaultValues": {
-//mike test 
     "interstitials_enabled":true,
     "interstitials_frequency": 90,
     
@@ -19,6 +18,7 @@
     "finish_empire_to_unlock_washington":true,
     "reach_level_to_unlock_washington":50,
     "liberty_world_easy_math":false,
+    "set_2th_world_index":1,
 
     // MISCELLANEOUS
     "tutorial": true,
@@ -32,7 +32,7 @@
       "id": "A",
       "CohortWeight":50,
       "values": {
-        "liberty_world_easy_math":true
+        "set_2th_world_index":1
       }
     },
 
