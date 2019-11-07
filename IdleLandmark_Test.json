@@ -30,17 +30,33 @@
 
     {
       "id": "A",
-      "CohortWeight":50,
+      "CohortWeight":25,
       "values": {
-        "set_2th_world_index":3
+        "set_2th_world_index":1
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
       "values": {
-
+        "set_2th_world_index":2
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 25,
+      "values": {
+        "set_2th_world_index":3
+      }
+    },
+    
+    {
+      "id": "D",
+      "CohortWeight": 25,
+      "values": {
+        "set_2th_world_index":4
       }
     }
   ]
