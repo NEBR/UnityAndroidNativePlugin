@@ -40,7 +40,7 @@
       "id": "B",
       "CohortWeight": 25,
       "values": {
-        //"set_2th_world_index":2 // eiffel tower
+        "set_2th_world_index":2 // eiffel tower
       }
     },
     
