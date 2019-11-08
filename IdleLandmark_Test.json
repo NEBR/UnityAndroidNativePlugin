@@ -32,7 +32,7 @@
 
     {
       "id": "A",
-      "CohortWeight":1,
+      "CohortWeight":95,
       "values": {
         "set_2th_world_index":1 // liberty (reference cohort)
       }
