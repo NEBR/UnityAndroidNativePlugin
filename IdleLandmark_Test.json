@@ -32,7 +32,7 @@
 
     {
       "id": "A",
-      "CohortWeight":95,
+      "CohortWeight":1,
       "values": {
         "set_2th_world_index":1 // liberty (reference cohort)
       }
@@ -40,7 +40,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 1,
+      "CohortWeight": 95,
       "values": {
         "set_2th_world_index":2 // eiffel tower
       }
