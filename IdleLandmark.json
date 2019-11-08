@@ -1,6 +1,5 @@
 {
   "DefaultValues": {
-
     "interstitials_enabled":true,
     "interstitials_frequency": 60,
     
@@ -18,45 +17,64 @@
     "reach_level_to_unlock_empire": 30,
     "finish_empire_to_unlock_washington":true,
     "reach_level_to_unlock_washington":50,
+    "finish_washington_to_unlock_maya":true,
+    "reach_level_to_unlock_maya":75,
+    "liberty_world_hard_math":false,
+    "set_2th_world_index":1,
 
     // MISCELLANEOUS
     "tutorial": true,
     "extendUpgradesTo75":true,
-    "ab_test_new_users": 1
+    "ab_test_new_users": 100
   },
 
   "ABTests": [
 
     {
       "id": "A",
-      "CohortWeight": 25,
+      "CohortWeight":16,
       "values": {
-        "interstitials_enabled":true,
-        "interstitials_frequency": 60
+        "set_2th_world_index":1 // liberty (reference cohort)
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 16,
       "values": {
-        "interstitials_enabled":true,
-        "interstitials_frequency": 90
+        "set_2th_world_index":2 // eiffel tower
       }
     },
+    
     {
       "id": "C",
-      "CohortWeight": 25,
+      "CohortWeight": 17,
       "values": {
-        "interstitials_enabled":true,
-        "interstitials_frequency": 120
+        "set_2th_world_index":3 // empire state
       }
     },
+    
     {
       "id": "D",
-      "CohortWeight": 25,
+      "CohortWeight": 17,
       "values": {
-        
+        "set_2th_world_index":4 // washington
+      }
+    },
+    
+    {
+      "id": "E",
+      "CohortWeight": 17,
+      "values": {
+        "set_2th_world_index":5 // maya temple
+      }
+    },
+    
+    {
+      "id": "F",
+      "CohortWeight": 17,
+      "values": {
+        "liberty_world_hard_math":true
       }
     }
   ]
