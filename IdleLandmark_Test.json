@@ -64,9 +64,17 @@
     
     {
       "id": "E",
-      "CohortWeight": 96,
+      "CohortWeight": 95,
       "values": {
         "set_2th_world_index":5 // maya temple
+      }
+    },
+    
+    {
+      "id": "F",
+      "CohortWeight": 1,
+      "values": {
+        "liberty_world_easy_math":false
       }
     }
   ]
