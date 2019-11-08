@@ -30,7 +30,7 @@
 
     {
       "id": "A",
-      "CohortWeight":25,
+      "CohortWeight":20,
       "values": {
         "set_2th_world_index":1 // liberty (reference cohort)
       }
@@ -38,7 +38,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 20,
       "values": {
         "set_2th_world_index":2 // eiffel tower
       }
@@ -46,7 +46,7 @@
     
     {
       "id": "C",
-      "CohortWeight": 25,
+      "CohortWeight": 20,
       "values": {
         "set_2th_world_index":3 // empire state
       }
@@ -54,9 +54,17 @@
     
     {
       "id": "D",
-      "CohortWeight": 25,
+      "CohortWeight": 20,
       "values": {
         "set_2th_world_index":4 // washington
+      }
+    },
+    
+    {
+      "id": "E",
+      "CohortWeight": 20,
+      "values": {
+        "set_2th_world_index":5 // maya temple
       }
     }
   ]
