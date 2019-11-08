@@ -17,6 +17,8 @@
     "reach_level_to_unlock_empire": 30,
     "finish_empire_to_unlock_washington":true,
     "reach_level_to_unlock_washington":50,
+    "finish_washington_to_unlock_maya":true,
+    "reach_level_to_unlock_maya":75,
     "liberty_world_easy_math":false,
     "set_2th_world_index":1,
 
