@@ -1,7 +1,7 @@
 {
   "DefaultValues": {
     "interstitials_enabled":true,
-    "interstitials_frequency": 90,
+    "interstitials_frequency": 60,
     
     // BOOSTERS
     "round_boosters_frequency": 40,
@@ -30,7 +30,7 @@
 
     {
       "id": "A",
-      "CohortWeight":20,
+      "CohortWeight":1,
       "values": {
         "set_2th_world_index":1 // liberty (reference cohort)
       }
@@ -38,7 +38,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 20,
+      "CohortWeight": 1,
       "values": {
         "set_2th_world_index":2 // eiffel tower
       }
@@ -46,7 +46,7 @@
     
     {
       "id": "C",
-      "CohortWeight": 20,
+      "CohortWeight": 1,
       "values": {
         "set_2th_world_index":3 // empire state
       }
@@ -54,7 +54,7 @@
     
     {
       "id": "D",
-      "CohortWeight": 20,
+      "CohortWeight": 1,
       "values": {
         "set_2th_world_index":4 // washington
       }
@@ -62,7 +62,7 @@
     
     {
       "id": "E",
-      "CohortWeight": 20,
+      "CohortWeight": 96,
       "values": {
         "set_2th_world_index":5 // maya temple
       }
