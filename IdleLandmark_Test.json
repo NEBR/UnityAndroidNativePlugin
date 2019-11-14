@@ -25,6 +25,8 @@
     // MISCELLANEOUS
     "tutorial": true,
     "extendUpgradesTo75":true,
+    "iOSaskRatingMin": 5,
+    "iOSaskNotificationMin": 5,
     "ab_test_new_users": 100
   },
 
