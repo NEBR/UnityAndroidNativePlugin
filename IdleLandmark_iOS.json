@@ -1,7 +1,7 @@
 {
   "DefaultValues": {
 
-    "interstitials_enabled":false,
+    "interstitials_enabled":true,
     "interstitials_frequency": 90,
     
     // BOOSTERS
