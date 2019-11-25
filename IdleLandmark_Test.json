@@ -27,6 +27,7 @@
     "extendUpgradesTo75":true,
     "iOSaskRatingMin": 5,
     "iOSaskNotificationMin": 5,
+    "buildingProgress":false,
     "ab_test_new_users": 100
   },
 
