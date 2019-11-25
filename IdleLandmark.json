@@ -25,6 +25,7 @@
     // MISCELLANEOUS
     "tutorial": true,
     "extendUpgradesTo75":true,
+    "buildingProgress":false,
     "ab_test_new_users": 100
   },
 
