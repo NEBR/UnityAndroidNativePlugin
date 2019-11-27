@@ -8,7 +8,7 @@
 "profit_round_booster_duration": 120,
 "speed_round_booster_duration": 120,
 
-"droneX10RewardEnable": false,
+"droneX10RewardEnable": true,
 
 // BALANCE
 "upgradePriceTicket": 1 ,
@@ -27,6 +27,8 @@
 "world3_unlock_at_level":40,
 "zoom_out":true,
 "slower_gameplay":false,
+"show_upper_buttons":true,
+"content_burn":false,
 "ab_test_new_users": 100
 },
 
@@ -34,17 +36,34 @@
 
 {
 "id": "A",
-"CohortWeight": 50,
+"CohortWeight": 25,
 "values": {
-"droneX10RewardEnable":true
+"content_burn":true
 }
 },
 
 {
 "id": "B",
-"CohortWeight": 50,
+"CohortWeight": 25,
 "values": {
-
+"interstitials_enabled":true,
+"content_burn":true
+}
+},
+  
+{
+"id": "C",
+"CohortWeight": 25,
+"values": {
+"interstitials_enabled":true
+}
+},
+  
+{
+"id": "D",
+"CohortWeight": 25,
+"values": {
+"interstitials_enabled":false
 }
 }
   
