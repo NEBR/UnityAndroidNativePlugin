@@ -1,8 +1,8 @@
 {
 "DefaultValues": {
 
-"interstitials_enabled":false,
-"interstitials_frequency": 3000,
+"interstitials_enabled":true,
+"interstitials_frequency": 60,
 // BOOSTERS
 "round_boosters_frequency": 40,
 "profit_round_booster_duration": 120,
