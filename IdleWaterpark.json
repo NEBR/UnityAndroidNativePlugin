@@ -33,22 +33,37 @@
 },
 
 "ABTests": [
+  {
+"id": "A",
+"CohortWeight": 25,
+"values": {
+"content_burn":true
+}
+},
 
 {
-"id": "A",
-"CohortWeight": 20,
+"id": "B",
+"CohortWeight": 25,
 "values": {
-"show_upper_buttons":false
+"interstitials_enabled":true,
+"content_burn":true
 }
 },
   
 {
-"id": "B",
-"CohortWeight": 80,
+"id": "C",
+"CohortWeight": 25,
 "values": {
-
+"interstitials_enabled":true
 }
-}
+},
   
+{
+"id": "D",
+"CohortWeight": 25,
+"values": {
+"interstitials_enabled":false
+}
+}
 ]
 }
