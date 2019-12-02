@@ -1,7 +1,7 @@
 {
 "DefaultValues": {
 
-"interstitials_enabled":false,
+"interstitials_enabled":true,
 "interstitials_frequency": 60,
 // BOOSTERS
 "round_boosters_frequency": 40,
@@ -28,14 +28,14 @@
 "zoom_out":true,
 "slower_gameplay":false,
 "show_upper_buttons":true,
-"content_burn":false,
+"content_burn":true,
 "ab_test_new_users": 100
 },
 
 "ABTests": [
   {
 "id": "A",
-"CohortWeight": 25,
+"CohortWeight": 1,
 "values": {
 "content_burn":true
 }
@@ -43,7 +43,7 @@
 
 {
 "id": "B",
-"CohortWeight": 25,
+"CohortWeight": 97,
 "values": {
 "interstitials_enabled":true,
 "content_burn":true
@@ -52,7 +52,7 @@
   
 {
 "id": "C",
-"CohortWeight": 25,
+"CohortWeight": 1,
 "values": {
 "interstitials_enabled":true
 }
@@ -60,7 +60,7 @@
   
 {
 "id": "D",
-"CohortWeight": 25,
+"CohortWeight": 1,
 "values": {
 "interstitials_enabled":false
 }
