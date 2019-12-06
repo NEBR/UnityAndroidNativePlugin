@@ -24,12 +24,12 @@
     "difficulty":1,
     
     // TIME TRAVEL
-    "timeTravelCost1": 15,
-    "timeTravelCost2": 45,
-    "timeTravelCost3": 80,       
-    "timeTravelValue1": 1500,
-    "timeTravelValue2": 7500,
-    "timeTravelValue3": 18000,
+    "timeTravelCost1": 20,
+    "timeTravelCost2": 50,
+    "timeTravelCost3": 85,       
+    "timeTravelValue1": 1505,
+    "timeTravelValue2": 7505,
+    "timeTravelValue3": 18005,
 
     // MISCELLANEOUS
     "tutorial": true,
@@ -37,9 +37,9 @@
     "iOSaskRatingMin": 5,
     "iOSaskNotificationMin": 5,
     "buildingProgress":false,
-    "levelUpRewardMultiplier":3,
-    "offlineEarningsMultiplier":3,
-    "dontKillWorkers":false,
+    "levelUpRewardMultiplier":4,
+    "offlineEarningsMultiplier":4,
+    "dontKillWorkers":true,
     "ab_test_new_users": 100
   },
 
