@@ -21,6 +21,7 @@
     "reach_level_to_unlock_maya":75,
     "liberty_world_hard_math":false,
     "set_2th_world_index":1,
+    "difficulty":1,
 
     // MISCELLANEOUS
     "tutorial": true,
