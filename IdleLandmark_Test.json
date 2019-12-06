@@ -29,6 +29,7 @@
     "iOSaskNotificationMin": 5,
     "buildingProgress":false,
     "levelUpRewardMultiplier":3,
+    "offlineEarningsMultiplier":3,
     "ab_test_new_users": 100
   },
 
