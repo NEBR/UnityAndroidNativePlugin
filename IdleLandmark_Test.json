@@ -39,6 +39,7 @@
     "buildingProgress":false,
     "levelUpRewardMultiplier":3,
     "offlineEarningsMultiplier":3,
+    "dontKillWorkers":false,
     "ab_test_new_users": 100
   },
 
