@@ -22,6 +22,14 @@
     "liberty_world_hard_math":false,
     "set_2th_world_index":1,
     "difficulty":1,
+    
+    // TIME TRAVEL
+    "timeTravelCost1": 15,
+    "timeTravelCost2": 45,
+    "timeTravelCost3": 80,       
+    "timeTravelValue1": 1500,
+    "timeTravelValue2": 7500,
+    "timeTravelValue3": 18000,
 
     // MISCELLANEOUS
     "tutorial": true,
