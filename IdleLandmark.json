@@ -21,11 +21,21 @@
     "reach_level_to_unlock_maya":75,
     "liberty_world_hard_math":false,
     "set_2th_world_index":1,
+    
+    // TIME TRAVEL
+    "timeTravelCost1": 15,
+    "timeTravelCost2": 45,
+    "timeTravelCost3": 80,       
+    "timeTravelValue1": 1500,
+    "timeTravelValue2": 7500,
+    "timeTravelValue3": 18000,
 
     // MISCELLANEOUS
     "tutorial": true,
     "extendUpgradesTo75":true,
     "buildingProgress":false,
+    "levelUpRewardMultiplier":3,
+    "offlineEarningsMultiplier":3,
     "ab_test_new_users": 100
   },
 
