@@ -43,33 +43,36 @@
 
     {
       "id": "A",
-      "CohortWeight":95,
+      "CohortWeight":68,
       "values": {
-        "set_2th_world_index":1 // liberty (reference cohort)
+        "set_2th_world_index":1
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 1,
+      "CohortWeight": 10,
       "values": {
-        "set_2th_world_index":2 // eiffel tower
+        "round_boosters_frequency":30
       }
     },
     
     {
       "id": "C",
-      "CohortWeight": 1,
+      "CohortWeight": 10,
       "values": {
-        "set_2th_world_index":3 // empire state
+        "round_boosters_frequency":30,
+        "profit_round_booster_duration": 45,
+        "speed_round_booster_duration": 45
+        
       }
     },
     
     {
       "id": "D",
-      "CohortWeight": 1,
+      "CohortWeight": 10,
       "values": {
-        "set_2th_world_index":4 // washington
+        "round_boosters_frequency":40 // control group
       }
     },
     
