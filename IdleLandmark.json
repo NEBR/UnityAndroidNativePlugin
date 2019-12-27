@@ -43,7 +43,7 @@
 
     {
       "id": "A",
-      "CohortWeight":68,
+      "CohortWeight":1,
       "values": {
         "set_2th_world_index":1
       }
@@ -51,7 +51,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 10,
+      "CohortWeight": 48,
       "values": {
         "round_boosters_frequency":30
       }
@@ -59,7 +59,7 @@
     
     {
       "id": "C",
-      "CohortWeight": 10,
+      "CohortWeight": 1,
       "values": {
         "round_boosters_frequency":30,
         "profit_round_booster_duration": 45,
@@ -70,7 +70,7 @@
     
     {
       "id": "D",
-      "CohortWeight": 10,
+      "CohortWeight": 48,
       "values": {
         "round_boosters_frequency":40 // control group
       }
