@@ -1,7 +1,6 @@
 {
 "DefaultValues": {
 "interstitials_enabled":true,
-"interstitials_frequency": 60,
 
 "ab_test_new_users": 1
 },
