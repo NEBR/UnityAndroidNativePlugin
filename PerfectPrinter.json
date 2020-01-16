@@ -1,0 +1,28 @@
+{
+"DefaultValues": {
+"interstitials_enabled":true,
+"interstitials_frequency": 60,
+
+"ab_test_new_users": 1
+},
+
+"ABTests": [
+
+{
+"id": "A",
+"CohortWeight":20,
+"values": {
+
+}
+},
+
+{
+"id": "B",
+"CohortWeight": 80,
+"values": {
+
+
+}
+}
+]
+}
