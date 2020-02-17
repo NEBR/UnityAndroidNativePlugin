@@ -1,0 +1,96 @@
+{
+  "DefaultValues": {
+    "interstitials_enabled":true,
+    "interstitials_frequency": 60,
+    
+    // BOOSTERS
+    "round_boosters_frequency": 40,
+    "profit_round_booster_duration": 60,
+    "speed_round_booster_duration": 60,
+    
+    // WORLDS
+    "finish_egypt_to_unlock_liberty": true,
+    "reach_level_to_unlock_liberty": 5, 
+    "finish_liberty_to_unlock_paris": true,
+    "reach_level_to_unlock_paris": 15,
+    "finish_paris_to_unlock_empire": true,
+    "reach_level_to_unlock_empire": 30,
+    "finish_empire_to_unlock_washington":true,
+    "reach_level_to_unlock_washington":50,
+    "finish_washington_to_unlock_maya":true,
+    "reach_level_to_unlock_maya":75,
+    "liberty_world_hard_math":false,
+    "set_2th_world_index":1,
+    "difficulty":1,
+    
+    // TIME TRAVEL
+    "timeTravelCost1": 20,
+    "timeTravelCost2": 50,
+    "timeTravelCost3": 85,       
+    "timeTravelValue1": 1505,
+    "timeTravelValue2": 7505,
+    "timeTravelValue3": 18005,
+
+    // MISCELLANEOUS
+    "tutorial": true,
+    "extendUpgradesTo75":true,
+    "iOSaskRatingMin": 5,
+    "iOSaskNotificationMin": 5,
+    "buildingProgress":false,
+    "levelUpRewardMultiplier":4,
+    "offlineEarningsMultiplier":4,
+    "dontKillWorkers":true,
+    "ab_test_new_users": 100
+  },
+
+  "ABTests": [
+
+    {
+      "id": "A",
+      "CohortWeight":16,
+      "values": {
+        "set_2th_world_index":1 // liberty (reference cohort)
+      }
+    },
+
+    {
+      "id": "B",
+      "CohortWeight": 16,
+      "values": {
+        "set_2th_world_index":2 // eiffel tower
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 17,
+      "values": {
+        "set_2th_world_index":3 // empire state
+      }
+    },
+    
+    {
+      "id": "D",
+      "CohortWeight": 17,
+      "values": {
+        "set_2th_world_index":4 // washington
+      }
+    },
+    
+    {
+      "id": "E",
+      "CohortWeight": 17,
+      "values": {
+        "set_2th_world_index":5 // maya temple
+      }
+    },
+    
+    {
+      "id": "F",
+      "CohortWeight": 17,
+      "values": {
+        "liberty_world_hard_math":true
+      }
+    }
+  ]
+}
