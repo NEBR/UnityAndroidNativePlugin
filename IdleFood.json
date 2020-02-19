@@ -1,0 +1,95 @@
+{
+  "DefaultValues": {
+    "interstitials_enabled":true,
+    "interstitials_frequency": 60,
+    
+    // BOOSTERS
+    "round_boosters_frequency": 40,
+    "profit_round_booster_duration": 60,
+    "speed_round_booster_duration": 60,
+    
+    // WORLDS
+    "finish_egypt_to_unlock_liberty": true,
+    "reach_level_to_unlock_liberty": 5, 
+    "finish_liberty_to_unlock_paris": true,
+    "reach_level_to_unlock_paris": 15,
+    "finish_paris_to_unlock_empire": true,
+    "reach_level_to_unlock_empire": 30,
+    "finish_empire_to_unlock_washington":true,
+    "reach_level_to_unlock_washington":50,
+    "finish_washington_to_unlock_maya":true,
+    "reach_level_to_unlock_maya":75,
+    "liberty_world_hard_math":false,
+    "set_2th_world_index":1,
+    
+    // TIME TRAVEL
+    "timeTravelCost1": 15,
+    "timeTravelCost2": 45,
+    "timeTravelCost3": 80,       
+    "timeTravelValue1": 1500,
+    "timeTravelValue2": 7500,
+    "timeTravelValue3": 18000,
+
+    // MISCELLANEOUS
+    "tutorial": true,
+    "extendUpgradesTo75":true,
+    "buildingProgress":false,
+    "levelUpRewardMultiplier":3,
+    "offlineEarningsMultiplier":3,
+    "ab_test_new_users": 100
+  },
+
+  "ABTests": [
+
+    {
+      "id": "A",
+      "CohortWeight":1,
+      "values": {
+        "set_2th_world_index":1
+      }
+    },
+
+    {
+      "id": "B",
+      "CohortWeight": 48,
+      "values": {
+        "round_boosters_frequency":30
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 1,
+      "values": {
+        "round_boosters_frequency":30,
+        "profit_round_booster_duration": 45,
+        "speed_round_booster_duration": 45
+        
+      }
+    },
+    
+    {
+      "id": "D",
+      "CohortWeight": 48,
+      "values": {
+        "round_boosters_frequency":40 // control group
+      }
+    },
+    
+    {
+      "id": "E",
+      "CohortWeight": 1,
+      "values": {
+        "set_2th_world_index":5 // maya temple
+      }
+    },
+    
+    {
+      "id": "F",
+      "CohortWeight": 1,
+      "values": {
+        "liberty_world_hard_math":true
+      }
+    }
+  ]
+}
