@@ -24,12 +24,12 @@
     "difficulty":1,
     
     // TIME TRAVEL
-    "timeTravelCost1": 20,
-    "timeTravelCost2": 50,
-    "timeTravelCost3": 85,       
-    "timeTravelValue1": 1505,
-    "timeTravelValue2": 7505,
-    "timeTravelValue3": 18005,
+    "timeTravelCost1": 15,
+    "timeTravelCost2": 45,
+    "timeTravelCost3": 80,       
+    "timeTravelValue1": 1500,
+    "timeTravelValue2": 7500,
+    "timeTravelValue3": 18000,
 
     // MISCELLANEOUS
     "tutorial": true,
