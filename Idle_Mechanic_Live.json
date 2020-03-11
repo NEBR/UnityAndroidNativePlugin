@@ -40,6 +40,7 @@
     "levelUpRewardMultiplier":4,
     "offlineEarningsMultiplier":4,
     "dontKillWorkers":true,
+    "new_ui":false,
     "ab_test_new_users": 1
   },
 
@@ -49,7 +50,7 @@
       "id": "A",
       "CohortWeight":50,
       "values": {
-        
+          "new_ui":false
       }
     },
 
@@ -57,7 +58,7 @@
       "id": "B",
       "CohortWeight": 50,
       "values": {
-       
+          "new_ui":true
       }
     }
   ]
