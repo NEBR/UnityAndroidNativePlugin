@@ -4,9 +4,9 @@
     "interstitials_frequency": 60,
     
     // BOOSTERS
-    "round_boosters_frequency": 10000,   // 40
-    "profit_round_booster_duration": 10000, // 60
-    "speed_round_booster_duration": 10000,  // 60
+    "round_boosters_frequency": 40,   
+    "profit_round_booster_duration": 60,
+    "speed_round_booster_duration": 60,  
     
     // WORLDS
     "finish_egypt_to_unlock_liberty": true,
@@ -51,7 +51,10 @@
       "id": "A",
       "CohortWeight":33,
       "values": {
-          "new_ui":true
+          // boosters disabled
+          "round_boosters_frequency": 10000,  
+          "profit_round_booster_duration": 10000, 
+          "speed_round_booster_duration": 10000,  
       }
     },
 
