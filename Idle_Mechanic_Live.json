@@ -4,7 +4,7 @@
     "interstitials_frequency": 60,
     
     // BOOSTERS
-    "round_boosters_frequency": 40,
+    "round_boosters_frequency": 10000,   // 40
     "profit_round_booster_duration": 10000, // 60
     "speed_round_booster_duration": 10000,  // 60
     
