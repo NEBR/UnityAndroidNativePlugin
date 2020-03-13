@@ -40,26 +40,36 @@
     "levelUpRewardMultiplier":4,
     "offlineEarningsMultiplier":4,
     "dontKillWorkers":true,
-    "new_ui":true,
-    "slower_gameplay":true,
-    "ab_test_new_users": 1
+    "new_ui":false,
+    "slower_gameplay":false,
+    "ab_test_new_users": 100
   },
 
   "ABTests": [
 
     {
       "id": "A",
-      "CohortWeight":50,
+      "CohortWeight":33,
       "values": {
-          //"new_ui":false
+          "new_ui":true
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 33,
       "values": {
-          //"new_ui":true
+          "slower_gameplay":true
+      }
+    },
+    
+    ,
+
+    {
+      "id": "С",
+      "CohortWeight": 33,
+      "values": {
+          "interstitials_enabled":true
       }
     }
   ]
