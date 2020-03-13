@@ -5,8 +5,8 @@
     
     // BOOSTERS
     "round_boosters_frequency": 40,
-    "profit_round_booster_duration": 60,
-    "speed_round_booster_duration": 60,
+    "profit_round_booster_duration": 10000, // 60
+    "speed_round_booster_duration": 10000,  // 60
     
     // WORLDS
     "finish_egypt_to_unlock_liberty": true,
