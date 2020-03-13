@@ -5,8 +5,8 @@
     
     // BOOSTERS
     "round_boosters_frequency": 40,   
-    "profit_round_booster_duration": 60,
-    "speed_round_booster_duration": 60,  
+    "profit_round_booster_duration": 30,
+    "speed_round_booster_duration": 30,  
     
     // WORLDS
     "finish_egypt_to_unlock_liberty": true,
@@ -42,7 +42,7 @@
     "dontKillWorkers":true,
     "new_ui":true,
     "slower_gameplay":true,
-    "ab_test_new_users": 1
+    "ab_test_new_users": 100
   },
 
   "ABTests": [
