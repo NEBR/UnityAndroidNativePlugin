@@ -54,7 +54,7 @@
           // boosters disabled
           "round_boosters_frequency": 10000,  
           "profit_round_booster_duration": 10000, 
-          "speed_round_booster_duration": 10000,  
+          "speed_round_booster_duration": 10000
       }
     },
 
