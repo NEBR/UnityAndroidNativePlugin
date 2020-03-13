@@ -40,8 +40,8 @@
     "levelUpRewardMultiplier":4,
     "offlineEarningsMultiplier":4,
     "dontKillWorkers":true,
-    "new_ui":false,
-    "slower_gameplay":false,
+    "new_ui":true,
+    "slower_gameplay":true,
     "ab_test_new_users": 100
   },
 
