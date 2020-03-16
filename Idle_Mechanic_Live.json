@@ -48,24 +48,16 @@
 
     {
       "id": "A",
-      "CohortWeight":33,
+      "CohortWeight": 50,
       "values": {
-          // boosters disabled
-          "round_boosters_frequency": 10000
-      }
-    },
-
-    {
-      "id": "B",
-      "CohortWeight": 33,
-      "values": {
+          "round_boosters_frequency": 10000,
           "slower_gameplay":true
       }
     },
 
     {
-      "id": "С",
-      "CohortWeight": 33,
+      "id": "B",
+      "CohortWeight": 50,
       "values": {
           "interstitials_enabled":true
       }
