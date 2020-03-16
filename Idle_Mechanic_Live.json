@@ -5,8 +5,8 @@
     
     // BOOSTERS
     "round_boosters_frequency": 40,   
-    "profit_round_booster_duration": 30,
-    "speed_round_booster_duration": 30,  
+    "profit_round_booster_duration": 60,
+    "speed_round_booster_duration": 60,  
     
     // WORLDS
     "finish_egypt_to_unlock_liberty": true,
@@ -51,9 +51,7 @@
       "CohortWeight":33,
       "values": {
           // boosters disabled
-          "round_boosters_frequency": 10000,  
-          "profit_round_booster_duration": 10000, 
-          "speed_round_booster_duration": 10000
+          "round_boosters_frequency": 10000
       }
     },
 
