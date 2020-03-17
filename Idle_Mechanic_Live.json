@@ -48,7 +48,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
           "round_boosters_frequency": 10000,
           "slower_gameplay":true
@@ -57,7 +57,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
           "slower_gameplay":true
       }
@@ -65,9 +65,17 @@
     
     {
       "id": "C",
-      "CohortWeight": 33,
+      "CohortWeight": 25,
       "values": {
           "interstitials_enabled":true
+      }
+    },
+    
+    {
+      "id": "D",
+      "CohortWeight": 25,
+      "values": {
+
       }
     }
   ]
