@@ -1,5 +1,4 @@
-{
-  "DefaultValues": {
+"DefaultValues": {
     "interstitials_enabled":false,
     "interstitials_frequency": 60,
     
@@ -49,16 +48,15 @@
 
     {
       "id": "A",
-      "CohortWeight": 25,
+      "CohortWeight": 49,
       "values": {
-          "round_boosters_frequency": 10000,
           "slower_gameplay":true
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 1,
       "values": {
           "slower_gameplay":true
       }
@@ -66,7 +64,7 @@
     
     {
       "id": "C",
-      "CohortWeight": 25,
+      "CohortWeight": 49,
       "values": {
           "interstitials_enabled":true
       }
@@ -74,7 +72,7 @@
     
     {
       "id": "D",
-      "CohortWeight": 25,
+      "CohortWeight": 1,
       "values": {
 
       }
