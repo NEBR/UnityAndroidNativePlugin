@@ -40,8 +40,8 @@
     "levelUpRewardMultiplier":4,
     "offlineEarningsMultiplier":4,
     "dontKillWorkers":true,
-    "slower_gameplay":false,
-    "sounds_on":true,
+    "slower_gameplay":true,
+    "sounds_on":false,
     "ab_test_new_users": 100
   },
 
@@ -49,33 +49,25 @@
 
     {
       "id": "A",
-      "CohortWeight": 49,
+      "CohortWeight": 33,
       "values": {
-          "slower_gameplay":true
+          
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 1,
-      "values": {
-          "slower_gameplay":true
-      }
-    },
-    
-    {
-      "id": "C",
-      "CohortWeight": 49,
+      "CohortWeight": 33,
       "values": {
           "interstitials_enabled":true
       }
     },
     
     {
-      "id": "D",
-      "CohortWeight": 1,
+      "id": "C",
+      "CohortWeight": 34,
       "values": {
-
+          "sounds_on":true
       }
     }
   ]
