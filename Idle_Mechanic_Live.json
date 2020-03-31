@@ -1,4 +1,5 @@
-"DefaultValues": {
+{
+  "DefaultValues": {
     "interstitials_enabled":false,
     "interstitials_frequency": 60,
     
