@@ -41,6 +41,7 @@
     "offlineEarningsMultiplier":4,
     "dontKillWorkers":true,
     "slower_gameplay":false,
+    "sounds_on":true,
     "ab_test_new_users": 100
   },
 
