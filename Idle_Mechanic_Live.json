@@ -2,6 +2,7 @@
   "DefaultValues": {
     "interstitials_enabled":true,
     "interstitials_frequency": 60,
+    "interstitials_first_start":120,
     
     // BOOSTERS
     "round_boosters_frequency": 10000,   
