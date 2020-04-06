@@ -42,6 +42,7 @@
     "dontKillWorkers":true,
     "slower_gameplay":true,
     "sounds_on":true,
+    "reduceVideoPaout30PercentsAfter15Worker":true,
     "ab_test_new_users": 100
   },
 
