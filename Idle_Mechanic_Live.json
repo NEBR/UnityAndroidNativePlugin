@@ -42,7 +42,7 @@
     "dontKillWorkers":true,
     "slower_gameplay":true,
     "sounds_on":true,
-    "ab_test_new_users": 1
+    "ab_test_new_users": 100
   },
 
   "ABTests": [
