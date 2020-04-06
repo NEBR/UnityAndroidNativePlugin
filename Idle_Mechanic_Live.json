@@ -2,7 +2,6 @@
   "DefaultValues": {
     "interstitials_enabled":true,
     "interstitials_frequency": 60,
-    "interstitials_first_start":121,
     
     // BOOSTERS
     "round_boosters_frequency": 10000,   
@@ -42,15 +41,15 @@
     "offlineEarningsMultiplier":4,
     "dontKillWorkers":true,
     "slower_gameplay":true,
-    "sounds_on":false,
-    "ab_test_new_users": 100
+    "sounds_on":true,
+    "ab_test_new_users": 1
   },
 
   "ABTests": [
 
     {
       "id": "A",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
           
       }
@@ -58,26 +57,9 @@
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
-          "interstitials_enabled":true
-      }
-    },
-    
-    {
-      "id": "C",
-      "CohortWeight": 25,
-      "values": {
-          "sounds_on":true
-      }
-    },
-
-    {
-      "id": "D",
-      "CohortWeight": 25,
-      "values": {
-          "interstitials_enabled":true,
-          "interstitials_frequency": 90
+          
       }
     }
   ]
