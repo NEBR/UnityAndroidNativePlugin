@@ -42,8 +42,8 @@
     "dontKillWorkers":true,
     "slower_gameplay":true,
     "sounds_on":true,
-    "reduceVideoPaout30PercentsAfter15Worker":true,
-    "removeAdsCarHud":true,
+    "reduceVideoPaout30PercentsAfter15Worker":false,
+    "removeAdsCarHud":false,
     "removeAdsGuysHud":false,
     "ab_test_new_users": 100
   },
@@ -52,15 +52,31 @@
 
     {
       "id": "A",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
       "values": {
-          
+          "reduceVideoPaout30PercentsAfter15Worker":true
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 25,
+      "values": {
+          "removeAdsCarHud":true
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 25,
+      "values": {
+          "removeAdsGuysHud":true
+      }
+    },
+    
+    {
+      "id": "D",
+      "CohortWeight": 25,
       "values": {
           
       }
