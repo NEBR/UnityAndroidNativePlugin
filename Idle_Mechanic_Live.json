@@ -53,7 +53,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 1,
+      "CohortWeight": 25,
       "values": {
           "reduceVideoPaout30PercentsAfter15Worker":true,
           "removeAdsCarHud":true
@@ -62,7 +62,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 1,
+      "CohortWeight": 25,
       "values": {
           "removeAdsCarHud":true,
           "interstitials_enabled":false
@@ -71,7 +71,7 @@
     
     {
       "id": "C",
-      "CohortWeight": 97,
+      "CohortWeight": 25,
       "values": {
           "removeAdsGuysHud":true,
           "interstitials_enabled":false
@@ -80,7 +80,7 @@
     
     {
       "id": "D",
-      "CohortWeight": 1,
+      "CohortWeight": 25,
       "values": {
           "removeAdsGuysHud":true
       }
