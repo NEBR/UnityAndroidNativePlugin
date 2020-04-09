@@ -53,7 +53,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 97,
+      "CohortWeight": 1,
       "values": {
           "reduceVideoPaout30PercentsAfter15Worker":true,
           "removeAdsCarHud":true
@@ -62,7 +62,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 1,
+      "CohortWeight": 97,
       "values": {
           "removeAdsCarHud":true,
           "interstitials_enabled":false
