@@ -62,7 +62,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 97,
+      "CohortWeight": 1,
       "values": {
           "removeAdsCarHud":true,
           "interstitials_enabled":false
@@ -71,7 +71,7 @@
     
     {
       "id": "C",
-      "CohortWeight": 1,
+      "CohortWeight": 97,
       "values": {
           "removeAdsGuysHud":true,
           "interstitials_enabled":false
