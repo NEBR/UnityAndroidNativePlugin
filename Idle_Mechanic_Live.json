@@ -54,7 +54,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 50,
+      "CohortWeight": 10,
       "values": {
           "english_main":false // localization enabled
       }
@@ -62,7 +62,7 @@
 
     {
       "id": "B",
-      "CohortWeight": 50,
+      "CohortWeight": 90,
       "values": {
 
       }
