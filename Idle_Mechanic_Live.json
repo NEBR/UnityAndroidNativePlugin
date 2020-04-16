@@ -56,7 +56,7 @@
       "id": "A",
       "CohortWeight": 50,
       "values": {
-          "english_main":false // localization enabled
+          //"english_main":false // localization enabled
       }
     },
 
