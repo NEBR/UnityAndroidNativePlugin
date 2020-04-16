@@ -46,6 +46,7 @@
     "reduceVideoPaout30PercentsAfter15Worker":false,
     "removeAdsCarHud":false,
     "removeAdsGuysHud":false,
+    "english_main":true,
     "ab_test_new_users": 100
   },
 
