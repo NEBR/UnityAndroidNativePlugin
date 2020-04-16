@@ -1,6 +1,6 @@
 {
   "DefaultValues": {
-    "interstitials_enabled":true,
+    "interstitials_enabled":false,
     "interstitials_frequency": 60,
     "interstitials_first_start":120,
     
@@ -45,7 +45,7 @@
     "sounds_on":true,
     "reduceVideoPaout30PercentsAfter15Worker":false,
     "removeAdsCarHud":false,
-    "removeAdsGuysHud":false,
+    "removeAdsGuysHud":true,
     "english_main":true,
     "ab_test_new_users": 100
   },
@@ -54,37 +54,19 @@
 
     {
       "id": "A",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
-          "reduceVideoPaout30PercentsAfter15Worker":true,
-          "removeAdsCarHud":true
+          "english_main":false // localization enabled
       }
     },
 
     {
       "id": "B",
-      "CohortWeight": 25,
+      "CohortWeight": 50,
       "values": {
-          "removeAdsCarHud":true,
-          "interstitials_enabled":false
-      }
-    },
-    
-    {
-      "id": "C",
-      "CohortWeight": 25,
-      "values": {
-          "removeAdsGuysHud":true,
-          "interstitials_enabled":false
-      }
-    },
-    
-    {
-      "id": "D",
-      "CohortWeight": 25,
-      "values": {
-          "removeAdsGuysHud":true
+
       }
     }
+    
   ]
 }
