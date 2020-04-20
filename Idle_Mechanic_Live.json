@@ -54,7 +54,7 @@
 
     {
       "id": "A",
-      "CohortWeight": 10,
+      "CohortWeight": 33,
       "values": {
           "english_main":false // localization enabled
       }
@@ -62,9 +62,18 @@
 
     {
       "id": "B",
-      "CohortWeight": 90,
+      "CohortWeight": 33,
       "values": {
-
+          "interstitials_enabled":true,
+          "interstitials_frequency": 120
+      }
+    },
+    
+    {
+      "id": "C",
+      "CohortWeight": 33,
+      "values": {
+          
       }
     }
     
