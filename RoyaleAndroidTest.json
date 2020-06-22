@@ -2,6 +2,7 @@
 	"DefaultValues": {
 		"interstitials_level_up": true,
 		"interstitials_upgrade": true,
+		"interstitials_new_weapon_discovery":false,
 
 		"banner_enabled": true,
 		"enableBanner": true,
@@ -48,10 +49,10 @@
 		"magnet_round_booster_enable":true,
 
 		"instant_bonus_boogiebomb":true,
-				"boogiebomb_multiplyspeed_factor":2,
-				"boogiebomb_multiplyprofit_factor":2,
-				"boogiebomb_duration":15,
-				"boogiebomb_frequency":70,
+		"boogiebomb_multiplyspeed_factor":2,
+		"boogiebomb_multiplyprofit_factor":2,
+		"boogiebomb_duration":15,
+		"boogiebomb_frequency":70,
 
 		"super_upgrade_frequency": 2,
 		"super_upgrade_chance": 40,
@@ -67,10 +68,11 @@
 
 		"xp_to_level_up_factor":4.5,
 
+		"flying_item_enabled":true,
 		"flying_item_frequency": 40,
 		"flying_item_speed":0.42,
 
-		"upgrades_prestige_enabled":false,
+		"upgrades_prestige_enabled":true,
 
 		"ab_test_new_users": 100
 	},
@@ -79,18 +81,47 @@
 
 		{
 			"id": "A",
-			"CohortWeight": 50,
+			"CohortWeight": 20,
 			"values": {
-				"banner_enabled": true,
-				"instant_bonus_fast_spawn": true
+
 			}
 		},
 
 		{
 			"id": "B",
-			"CohortWeight": 50,
+			"CohortWeight": 20,
 			"values": {
-				"upgrades_prestige_enabled": true
+				"flying_item_enabled":false
+			}
+		},
+
+		{
+			"id": "C",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false,
+				"round_boosters_frequency":10000
+			}
+		},
+
+		{
+			"id": "D",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false,
+				"round_boosters_frequency":10000,
+				"interstitials_new_weapon_discovery":true
+			}
+		},
+
+		{
+			"id": "E",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false,
+				"round_boosters_frequency":10000,
+				"interstitials_new_weapon_discovery":true,
+				"interstitials_frequency": 60
 			}
 		}
 	]
