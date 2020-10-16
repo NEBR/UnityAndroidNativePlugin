@@ -1,0 +1,128 @@
+{
+	"DefaultValues": {
+		"interstitials_level_up": true,
+		"interstitials_upgrade": true,
+		"interstitials_new_weapon_discovery":false,
+
+		"banner_enabled": true,
+		"enableBanner": true,
+
+		"interstitials_frequency": 300,
+		"interstitials_first_time_delay": 120,
+		"interstitials_first_level_up": 3,
+
+		"bonus_frequency_pinata_first": 180,
+		"bonus_frequency_pinata_second": 240,
+		"bonus_frequency_pinata_third": 300,
+
+		"weapons_delivery_weapons_count": 18,
+
+		"BoosterBoxTimeMin": 60,
+		"BoosterBoxTimeMax": 90,
+
+		"instant_bonus_magnet": true,
+		"instant_bonus_fast_spawn": true,
+		"instant_bonus_coins": false,
+		"level_up": true,
+
+		"not_enough_money_upgrade_for_rv": false,
+		"not_enough_money_upgrade_for_rv_frequency": 60,
+		"x2_boost_length": 10,
+		"fast_forward_tickets_cost": 5,
+		"weapon_box_tickets_cost": 2,
+		"magnet_tickets_cost": 1,
+		"faster_weapon_drop_tickets_cost": 1,
+		"pinata_more_visible_rv_button": true,
+		"extend_bonus_for_rv": false,
+		"extend_bonus_frequency": 60,
+		"extend_bonus_seconds_left_to_display_offer": 30,
+
+		"weapons_delivery_first_spawn_time": 30,
+		"weapons_delivery_frequency": 30,
+
+		"simple_version_enabled":true,
+
+		"round_boosters_frequency":45,
+		"round_booster_duration":35,
+		"speed_round_booster_enable":true,
+		"coins_round_booster_enable":true,
+		"magnet_round_booster_enable":true,
+
+		"instant_bonus_boogiebomb":true,
+		"boogiebomb_multiplyspeed_factor":2,
+		"boogiebomb_multiplyprofit_factor":2,
+		"boogiebomb_duration":15,
+		"boogiebomb_frequency":70,
+
+		"super_upgrade_frequency": 2,
+		"super_upgrade_chance": 40,
+		"super_upgrade_power": 10,
+
+		"golden_weapons_box": true,
+		"golden_weapons_box_frequency": 3,
+		"golden_weapons_box_higher_level":3,
+
+		"speed_upgrade_cost_factor":2,
+		"weapons_upgrade_cost_factor":3.6,
+		"profit_upgrade_cost_factor":3,
+
+		"xp_to_level_up_factor":4.5,
+
+		"flying_item_enabled":true,
+		"flying_item_frequency": 40,
+		"flying_item_speed":0.42,
+
+		"upgrades_prestige_enabled":true,
+
+		"ab_test_new_users": 100
+	},
+
+	"ABTests": [
+
+		{
+			"id": "A",
+			"CohortWeight": 20,
+			"values": {
+
+			}
+		},
+
+		{
+			"id": "B",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false
+			}
+		},
+
+		{
+			"id": "C",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false,
+				"round_boosters_frequency":10000
+			}
+		},
+
+		{
+			"id": "D",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false,
+				"round_boosters_frequency":10000,
+				"interstitials_new_weapon_discovery":true
+			}
+		},
+
+		{
+			"id": "E",
+			"CohortWeight": 20,
+			"values": {
+				"flying_item_enabled":false,
+				"round_boosters_frequency":10000,
+				"interstitials_new_weapon_discovery":true,
+				"interstitials_frequency": 60
+			}
+		}
+	]
+}
