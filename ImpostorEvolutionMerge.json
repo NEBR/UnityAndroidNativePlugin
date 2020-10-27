@@ -81,47 +81,9 @@
 
 		{
 			"id": "A",
-			"CohortWeight": 20,
+			"CohortWeight": 100,
 			"values": {
 
-			}
-		},
-
-		{
-			"id": "B",
-			"CohortWeight": 20,
-			"values": {
-				"flying_item_enabled":false
-			}
-		},
-
-		{
-			"id": "C",
-			"CohortWeight": 20,
-			"values": {
-				"flying_item_enabled":false,
-				"round_boosters_frequency":10000
-			}
-		},
-
-		{
-			"id": "D",
-			"CohortWeight": 20,
-			"values": {
-				"flying_item_enabled":false,
-				"round_boosters_frequency":10000,
-				"interstitials_new_weapon_discovery":true
-			}
-		},
-
-		{
-			"id": "E",
-			"CohortWeight": 20,
-			"values": {
-				"flying_item_enabled":false,
-				"round_boosters_frequency":10000,
-				"interstitials_new_weapon_discovery":true,
-				"interstitials_frequency": 60
 			}
 		}
 	]
