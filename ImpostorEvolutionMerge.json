@@ -81,7 +81,7 @@
 
 		{
 			"id": "A",
-			"CohortWeight": 50,
+			"CohortWeight": 25,
 			"values": {
 
 			}
@@ -89,7 +89,23 @@
 		
 		{
 			"id": "B",
-			"CohortWeight": 50,
+			"CohortWeight": 25,
+			"values": {
+
+			}
+		},
+		
+		{
+			"id": "C",
+			"CohortWeight": 25,
+			"values": {
+
+			}
+		},
+		
+		{
+			"id": "D",
+			"CohortWeight": 25,
 			"values": {
 
 			}
