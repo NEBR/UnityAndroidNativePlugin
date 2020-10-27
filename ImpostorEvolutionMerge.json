@@ -81,7 +81,15 @@
 
 		{
 			"id": "A",
-			"CohortWeight": 100,
+			"CohortWeight": 50,
+			"values": {
+
+			}
+		},
+		
+		{
+			"id": "B",
+			"CohortWeight": 50,
 			"values": {
 
 			}
