@@ -7,7 +7,7 @@
 		"banner_enabled": true,
 		"enableBanner": true,
 
-		"interstitials_frequency": 300,
+		"interstitials_frequency": 120,
 		"interstitials_first_time_delay": 120,
 		"interstitials_first_level_up": 3,
 
